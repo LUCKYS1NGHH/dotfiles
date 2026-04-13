@@ -1,0 +1,15 @@
+[general]
+color = "blue"
+interval = 250
+blink = true
+bold = true
+
+[position]
+horizontal = "center"
+vertical = "center"
+
+[date]
+fmt = "%a, %b %d, %Y"
+use_12h = true
+utc = false
+hide_seconds = true
