@@ -9,7 +9,7 @@
 ## Install
 
 ```bash
-git clone --depth=1 https://github.com/LUCKYS!1NGHH/dotfiles.git
+git clone --depth=1 https://github.com/LUCKYS1NGHH/dotfiles.git
 cd dotfiles
 cp -r ~/.config/* ~/.config/ 
 ```
