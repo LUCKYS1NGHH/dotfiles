@@ -243,8 +243,12 @@
   background: @noti-bg-alt;
   border-radius: 10px;
   padding: 6px;
-  margin: 4px 4px;
+  margin: 4px;
   color: @text-primary;
+}
+
+.widget-backlight scale slider {
+  border-radius: 99px; /* the drag handle */
 }
 
 .widget-volume scale slider {

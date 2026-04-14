@@ -28,7 +28,7 @@
       "app-name": ".*"
     }
   },
-  "widgets": ["title", "buttons-grid", "mpris", "volume"],
+  "widgets": ["title", "buttons-grid", "mpris", "volume", "backlight"],
   "widget-config": {
     "title": {
       "text": "SwayNC",
@@ -40,6 +40,11 @@
       "autohide": false,
       "show-album-art": "always",
       "loop-carousel": true
+    },
+    "backlight": {
+      "label": "󰃟 ",
+      "device": "intel_backlight",
+      "min": 1
     },
     "volume": {
       "label": " 󰕾",
