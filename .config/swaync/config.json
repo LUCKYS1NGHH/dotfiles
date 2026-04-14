@@ -1,0 +1,96 @@
+{
+  "$schema": "/etc/xdg/swaync/configSchema.json",
+  "ignore-gtk-theme": true,
+  "positionX": "right",
+  "positionY": "top",
+  "control-center-margin-top": 12,
+  "control-center-margin-bottom": 12,
+  "control-center-margin-right": 12,
+  "notification-body-image-height": 100,
+  "notification-body-image-width": 200,
+  "timeout": 5,
+  "timeout-low": 5,
+  "timeout-critical": 0,
+  "fit-to-screen": true,
+  "control-center-width": 320,
+  "control-center-height": 650,
+  "notification-window-width": 450,
+  "keyboard-shortcuts": true,
+  "image-visibility": "when-available",
+  "transition-time": 150,
+  "hide-on-clear": true,
+  "hide-on-action": true,
+  "script-fail-notify": true,
+  "text-empty": "No Notification, homie :(",
+  "scripts": {
+    "sound-script": {
+      "exec": "paplay ~/.config/swaync/notification.ogg",
+      "app-name": ".*"
+    }
+  },
+  "widgets": ["title", "buttons-grid", "mpris", "volume"],
+  "widget-config": {
+    "title": {
+      "text": "SwayNC",
+      "clear-all-button": true,
+      "button-text": "󰆴 Clear all"
+    },
+    "mpris": {
+      "blacklist": ["playerctl"],
+      "autohide": false,
+      "show-album-art": "always",
+      "loop-carousel": true
+    },
+    "volume": {
+      "label": " 󰕾",
+      "height": 10,
+      "position": "top-right"
+    },
+    "buttons-grid": {
+      "actions": [
+        {
+          "label": "󰐥",
+          "command": "systemctl poweroff"
+        },
+        {
+          "label": "󰜉",
+          "command": "systemctl reboot"
+        },
+        {
+          "label": "󰌾",
+          "command": "hyprlock"
+        },
+        {
+          "label": "󰍃",
+          "command": "swaymsg exit"
+        },
+        {
+          "label": "󰆴",
+          "command": "swaync-client -C"
+        },
+        {
+          "label": "󰕾",
+          "command": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+          "type": "toggle"
+        },
+        {
+          "label": "󰍬",
+          "command": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
+          "type": "toggle"
+        },
+        {
+          "label": "󰖩",
+          "command": "nm-applet"
+        },
+        {
+          "label": "󰂯",
+          "command": "blueman-manager"
+        },
+        {
+          "label": "",
+          "command": "obs-studio"
+        }
+      ]
+    }
+  }
+}
