@@ -310,7 +310,6 @@ picture.mpris-background {
 /* ── Action Button ────────────────────────────────── */
 .notification-action > button {
   color: @text-primary;
-  border-radius: 6px;
   background: transparent;
 }
 
