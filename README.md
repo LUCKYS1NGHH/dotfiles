@@ -24,5 +24,6 @@ cp -r ~/.config/* ~/.config/
 | waybar    |  `swaync`, `pacman-contrib`, `NetworkManager`, `network-manager-applet`, `brightnessctl`, `pavucontrol`, `python3`, `python-requests` |
 | kitty     |  `ttf-firacode-nerd` |
 | fastfetch |  N/A         |
-| hypr      |  `hyprlock`, `hyprshot`, `swaync`, `waybar`, `hyprsunset`, `kitty`, `thunar`, `wl-clipboard`            |
+| hypr      |  `hyprlock`, `hyprshot`, `swaync`, `waybar`, `hyprsunset`, `kitty`, `thunar`, `wl-clipboard`, `rofi` |
 | swaync    | `hyprlock`, `network-manager-applet`, `blueman`, `obs-studio`, `pavucontrol` |
+| rofi      | N/A          |
