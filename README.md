@@ -21,7 +21,7 @@ cp -r ~/.config/* ~/.config/
 |-----------|--------------|
 | cava      |  N/A         |
 | clock-rs  |  N/A         |
-| waybar    |  `swaync`, `pacman-contrib`, `NetworkManager`, `network-manager-applet`, `brightnessctl`, `pavucontrol` |
+| waybar    |  `swaync`, `pacman-contrib`, `NetworkManager`, `network-manager-applet`, `brightnessctl`, `pavucontrol`, `python3`, `python-requests` |
 | kitty     |  `ttf-firacode-nerd` |
 | fastfetch |  N/A         |
 | hypr      |  `hyprlock`, `hyprshot`, `swaync`, `waybar`, `hyprsunset`, `kitty`, `thunar`, `wl-clipboard`            |
