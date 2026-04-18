@@ -152,7 +152,7 @@
   color: @cyan-accent;
   background: @noti-bg-alt;
   border: 1px solid @blue-glow;
-  border-radius: 8px;
+  border-radius: 5px;
   padding: 6px 12px;
   margin: 4px 1px 4px;
   font-size: 1.2rem;
@@ -245,9 +245,17 @@
 .widget-volume {
   background: @noti-bg-alt;
   border-radius: 10px;
-  padding: 6px;
-  margin: 4px;
   color: @text-primary;
+}
+
+.widget-volume {
+  margin: 3px 12px 1px 18px;
+  padding: 2px;
+}
+
+.widget-backlight {
+  margin: 1px 12px 1px 18px;
+  padding: 2px;
 }
 
 .widget-backlight scale slider {
@@ -262,13 +270,13 @@
 .widget-mpris {
   background: @noti-bg-mpris;
   border-radius: 8px;
-  margin: 4px 4px;
+  margin: 14px;
   color: @text-primary;
   box-shadow: none;
 }
 
 .widget-mpris-title {
-  font-size: 0.85rem;
+  font-size: 0.87rem;
   font-weight: 700;
   color: @text-primary;
 }
@@ -279,7 +287,7 @@
 }
 
 .widget-mpris > box > button {
-  border-radius: 6px;
+  border-radius: 8px;
   box-shadow: none;
   margin: 6px;
   color: @text-muted;
@@ -294,20 +302,20 @@
 }
 
 .widget-mpris-player {
-  border-radius: 6px;
+  border-radius: 5px;
   box-shadow: none;
   margin: 8px;
   font-size: 0.85rem;
 }
 
 .widget-mpris-album-art {
-  border-radius: 6px;
+  border-radius: 5px;
   box-shadow: none;
-  margin: 8px;
+  margin: 6px;
 }
 
 picture.mpris-background {
-  opacity: 0;
+  opacity: 0.2;
 }
 
 /* ── Action Button ────────────────────────────────── */
