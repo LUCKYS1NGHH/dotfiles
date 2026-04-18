@@ -17,6 +17,7 @@
 @define-color red-hover #ee4646;
 @define-color green-base #67c66a;
 @define-color blue-glow #429bf3;
+@define-color green-glow #7dea70;
 
 /* ── Base ─────────────────────────────────────────── */
 * {
@@ -39,26 +40,22 @@
   border: 1px solid @noti-border;
   border-radius: 10px;
   padding: 4px 2px 4px 4px;
-  margin: 4px 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  margin: 4px 2px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
 
-/* ── Notification Row ─────────────────────────────── */
+/* ── Notification Row ──────── */
 .notification-row {
   outline: none;
   margin: 0;
   padding: 0;
 }
 
-.control-center .notification-row:hover {
-  background: transparent;
-}
-
-/* ── Text ─────────────────────────────────────────── */
+/* ── Notification Text ─────── */
 .summary {
   font-size: 12px;
   font-weight: 700;
-  color: @blue-glow;
+  color: @green-glow;
   background: transparent;
   text-shadow: none;
 }
@@ -94,7 +91,7 @@
 }
 
 .notification:hover .close-button {
-  opacity: 1;
+  opacity: 0.7;
   color: @red-hover;
 }
 
@@ -107,9 +104,10 @@
 .notification-default-action,
 .notification-action {
   border-radius: 5px;
-  border: 1px solid @noti-border;
+  border: 1px solid @blue-gray;
   color: @text-primary;
   background: @noti-bg-alt;
+  margin: 0.5px;
 }
 
 .notification-default-action:hover,
@@ -269,7 +267,7 @@
 /* ── Widget: MPRIS ────────────────────────────────── */
 .widget-mpris {
   background: @noti-bg-mpris;
-  border-radius: 8px;
+  border-radius: 12px;
   margin: 14px;
   color: @text-primary;
   box-shadow: none;
@@ -302,7 +300,7 @@
 }
 
 .widget-mpris-player {
-  border-radius: 5px;
+  border-radius: 6px;
   box-shadow: none;
   margin: 8px;
   font-size: 0.85rem;
