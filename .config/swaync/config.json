@@ -93,7 +93,7 @@
         },
         {
           "label": "",
-          "command": "obs-studio"
+          "command": "obs"
         }
       ]
     }
