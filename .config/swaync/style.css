@@ -20,7 +20,7 @@
 
 /* ── Base ─────────────────────────────────────────── */
 * {
-  font-family: "JetBrainsMono NFM", "FiraCode Nerd Font", monospace;
+  font-family: "JetBrainsMono Nerd Font Propo", "FiraCode Nerd Font", monospace;
   font-size: 12px;
   transition: all 0.15s ease-in-out;
   border-radius: 0;
@@ -205,7 +205,7 @@
 
 /* ── Widget: Label ────────────────────────────────── */
 .widget-label > label {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: @text-muted;
   margin: 6px 10px;
 }
@@ -220,12 +220,15 @@
 
 .widget-buttons-grid > flowbox > flowboxchild > button {
   margin: 3px;
-  padding: 6px 22px;
+  padding: 1px 21px;
   background: @noti-bg-bright;
   color: @text-muted;
   border: 1px solid transparent;
-  border-radius: 6px;
-  font-size: 1.2rem;
+  border-radius: 20px;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button > label {
+  font-size: 0.8rem;
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button:hover {

@@ -54,24 +54,18 @@
     "buttons-grid": {
       "actions": [
         {
-          "label": "󰐥",
-          "command": "systemctl poweroff"
+          "label": "󰤥",
+          "command": "nm-applet",
+          "type": "toggle"
         },
         {
-          "label": "󰜉",
-          "command": "systemctl reboot"
+          "label": "󰂯",
+          "command": "blueman-manager",
+          "type": "toggle"
         },
         {
           "label": "󰌾",
           "command": "hyprlock"
-        },
-        {
-          "label": "󰍃",
-          "command": "swaymsg exit"
-        },
-        {
-          "label": "󰆴",
-          "command": "swaync-client -C"
         },
         {
           "label": "󰕾",
@@ -79,20 +73,20 @@
           "type": "toggle"
         },
         {
+          "label": "",
+          "command": "systemctl poweroff"
+        },
+        {
+          "label": "",
+          "command": "systemctl reboot"
+        },
+        {
           "label": "󰍬",
           "command": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
           "type": "toggle"
         },
         {
-          "label": "󰖩",
-          "command": "nm-applet"
-        },
-        {
-          "label": "󰂯",
-          "command": "blueman-manager"
-        },
-        {
-          "label": "",
+          "label": "󰑋",
           "command": "obs"
         }
       ]
