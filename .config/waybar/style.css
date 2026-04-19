@@ -17,15 +17,15 @@ window#waybar {
 /* Workspaces */
 #workspaces {
     padding: 0 2.7px;
-    background: #30343d;
+    background: @bg;
 }
 
 #workspaces button {
     padding: 0 5px;
     margin: 4px 2px;
     border-radius: 15px;
-    background: #24292e;
-    color: #768ca3;
+    background: @workspace-button-bg;
+    color: @workspace-button-fg;
     transition: 0.23s;
 }
 
@@ -40,49 +40,50 @@ window#waybar {
     color: @black;
 }
 
+#custom-wallpaper-changer,
 #tray,
 #backlight,
 #clock,
 #pulseaudio,
 #network,
 #battery,
-#custom-arch,
 #custom-cpu,
 #custom-weather,
 #custom-updates,
 #custom-wlogout,
 #custom-swaync {
   padding: 0 10px;
-  background: #30343d;    /* module box color */
+  background: @bg;    /* module box color */
   border-radius: 0;    /* rounded box */
 }
 
 /* left-right modules border radius */
-#custom-arch { border-radius: 20px 0 0 20px; }
+#clock { border-radius: 20px 0 0 20px; }
 #custom-wlogout { border-radius: 0 20px 20px 0; }
 
 /* modules colors */
-#clock { color: #67a9f0; }
-#custom-weather { color: #bfbfbf }
+#clock { color: @smooth-blue; }
+#custom-weather { color: @gray }
+#custom-wallpaper-changer { color: @gray }
 #custom-updates { color: @cyan; }
 #backlight { color: @yellow; }
 #pulseaudio { color: @blue; }
 #network { color: @pink; }
 #battery { color: @green; }
-#custom-wlogout { color: #bfbfbf; }
+#custom-wlogout { color: @gray }
 #custom-swaync { color: @orange; }
 
 /* Volume highlight when muted */
 #pulseaudio.muted { color: @red; }
 
 tooltip {
-  background: rgba(27, 27, 36, 1);
-  border: 1px solid #89b4fa;
+  background: @dark-gray;
+  border: 1px solid @blue;
   border-radius: 8px;
 }
 
 tooltip label {
-  color: #bbcafa;
+  color: @light-gray;
   font-size: 12px;
   padding: 5px;
 }

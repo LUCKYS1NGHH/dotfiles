@@ -1,15 +1,30 @@
+@define-color bg #30343d;
+@define-color workspace-button-bg #24292e;
+@define-color workspace-button-fg #768ca3;
+
 @define-color red #e6605c;
 @define-color dark-red #e34d4d;
+
 @define-color yellow #e6c15c;
+
 @define-color green #7cdb7b;
+
 @define-color cyan #7acbcc;
+
 @define-color blue #5c85e6;
+@define-color smooth-blue #67a9f0;
 @define-color skyblue #5caae6;
+
 @define-color orange #ebba8d;
+
 @define-color pink #cf76c6;
+
 @define-color white #ffffff;
-@define-color fade-gray #bfbfbf;
-@define-color blue-terracotta #323763;
+
 @define-color gray-blue #1d2640;
+
 @define-color black #000000;
-@define-color nice-dark #212b3b;
+
+@define-color light-gray #cacfd0;
+@define-color gray #bfbfbf;
+@define-color dark-gray #1a1a1a;
