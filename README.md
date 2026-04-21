@@ -11,7 +11,7 @@
 ```bash
 git clone --depth=1 https://github.com/LUCKYS1NGHH/dotfiles.git
 cd dotfiles
-cp -r ~/.config/* ~/.config/ 
+cp -r .config/* ~/.config/ 
 ```
 
 # Tools & Dependencies
