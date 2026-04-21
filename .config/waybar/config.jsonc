@@ -61,11 +61,19 @@
     "escape": true
   },
 
+  "custom/wallpaper-changer": {
+    "format": "󰸉",
+    "on-click": "~/.config/waybar/scripts/wallpaper-change.sh",
+    "tooltip": true,
+    "tooltip-format": "Click to change wallpaper"
+  },
+
   "modules-center": [
     "custom/arch",
     "clock",
     "hyprland/workspaces",
     "custom/weather",
+    "custom/wallpaper-changer",
     "custom/updates",
     "backlight",
     "pulseaudio",
