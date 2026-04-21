@@ -1,6 +1,6 @@
 # Arch Hyprland dotfiles
 
-### Screenshots
+## Screenshots
 
 ![](screenshots/image_1.png)
 ![](screenshots/image_2.png)
@@ -8,13 +8,16 @@
 
 ## Install
 
+> [!IMPORTANT]
+> Before installing, please backup your `~/.config` directory.
+
 ```bash
 git clone --depth=1 https://github.com/LUCKYS1NGHH/dotfiles.git
 cd dotfiles
 cp -r .config/* ~/.config/ 
 ```
 
-# Tools & Dependencies
+## Tools & Dependencies
 #### you can replace any of these tools with your preferred alternatives after cloning.
 
 | Name      | Dependencies |
