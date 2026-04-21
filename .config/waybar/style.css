@@ -47,6 +47,7 @@ window#waybar {
 #pulseaudio,
 #network,
 #battery,
+#custom-arch,
 #custom-cpu,
 #custom-weather,
 #custom-updates,
@@ -58,7 +59,7 @@ window#waybar {
 }
 
 /* left-right modules border radius */
-#clock { border-radius: 20px 0 0 20px; }
+#custom-arch { border-radius: 20px 0 0 20px; }
 #custom-wlogout { border-radius: 0 20px 20px 0; }
 
 /* modules colors */
