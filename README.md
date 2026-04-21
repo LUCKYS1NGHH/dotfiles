@@ -20,13 +20,13 @@ cp -r .config/* ~/.config/
 ## Tools & Dependencies
 #### you can replace any of these tools with your preferred alternatives after cloning.
 
-| Name      | Dependencies |
-|-----------|--------------|
-| cava      |  N/A         |
-| clock-rs  |  N/A         |
-| waybar    |  `swaync`, `pacman-contrib`, `NetworkManager`, `network-manager-applet`, `brightnessctl`, `pavucontrol`, `python3`, `python-requests` |
-| kitty     |  `ttf-firacode-nerd` |
-| fastfetch |  N/A         |
-| hypr      |  `hyprlock`, `hyprshot`, `swaync`, `waybar`, `hyprsunset`, `kitty`, `thunar`, `wl-clipboard`, `rofi` |
-| swaync    | `hyprlock`, `network-manager-applet`, `blueman`, `obs-studio`, `pavucontrol` |
-| rofi      | N/A          |
+| Name      | Description                                | Dependencies |
+|-----------|--------------------------------------------|--------------|
+| cava      | Terminal Audio Visualizer                  | N/A          |
+| clock-rs  | CLI clock                                  | N/A          |
+| waybar    | Status bar                                 | `swaync`, `pacman-contrib`, `NetworkManager`, `network-manager-applet`, `brightnessctl`, `pavucontrol`, `python3`, `python-requests` |
+| kitty     | Fast GPU-accelerated terminal              | `ttf-firacode-nerd` |
+| fastfetch | System info                                | N/A          |
+| hypr      | hyprland window-manager and it's utilities |  `hyprlock`, `hyprshot`, `swaync`, `waybar`, `hyprsunset`, `kitty`, `thunar`, `wl-clipboard`, `rofi` |
+| swaync    | Notification center                        |`hyprlock`, `network-manager-applet`, `blueman`, `obs-studio`, `pavucontrol` |
+| rofi      | Dynamic Menu                               | N/A          |
