@@ -1,15 +1,15 @@
 [general]
-color = "blue"
-interval = 250
+color = "#3b82f6"
+interval = 150
 blink = true
-bold = true
+bold = false
 
 [position]
 horizontal = "center"
 vertical = "center"
 
 [date]
-fmt = "%a, %b %d, %Y"
+fmt = "%a, %d %b, %Y"
 use_12h = true
 utc = false
 hide_seconds = true
