@@ -73,6 +73,7 @@ window#waybar {
 #battery { color: @green; }
 #custom-wlogout { color: @gray }
 #custom-swaync { color: @orange; }
+#custom-cpu { color: @orange }
 
 /* Volume highlight when muted */
 #pulseaudio.muted { color: @red; }
