@@ -51,13 +51,17 @@
         "notification": "󰂚 ",
         "none": "󰂜 ",
         "dnd-notification": "󰂛 ",
-        "dnd-none": "󰂛 "
+        "dnd-none": "󰂛 ",
+        "inhibited-notification": "󰂚 ",
+        "inhibited-none": "󰂜 "
     },
     "return-type": "json",
     "exec-if": "which swaync-client",
     "exec": "swaync-client -swb",
     "on-click": "swaync-client -t -sw",
     "on-click-right": "swaync-client -d -sw",
+    "on-click-middle": "swaync-client -C -sw",
+    "tooltip": true,
     "escape": true
   },
 
@@ -128,7 +132,7 @@
   "battery": {
     "format": "{icon}{capacity}%",
     "format-charging": "󱐋 {capacity}%",
-    "format-full": "  100%",
+    "format-full": " 100%",
     "format-icons": [
       " ",
       " ",
