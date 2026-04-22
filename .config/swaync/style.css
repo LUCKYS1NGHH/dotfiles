@@ -166,7 +166,7 @@
 }
 
 .widget-dnd > switch {
-  background: @border-gray;
+  background: @gray;
   border-radius: 25px;
   border: none;
 }
@@ -194,7 +194,7 @@
   background: @noti-bg-alt;
   border-radius: 8px;
   padding: 6px;
-  margin: 4px 4px;
+  margin: 1px 3px 1px 3px;
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button {
@@ -249,7 +249,7 @@
 .widget-mpris {
   background: @noti-bg-mpris;
   border-radius: 12px;
-  margin: 14px;
+  margin: 2px 14px 2px 14px;
   color: @text-primary;
   box-shadow: none;
 }
