@@ -141,7 +141,7 @@
 .widget-title > button {
   font-size: 0.85rem;
   color: @text-muted;
-  margin: 4px 1px 4px 1px;
+  margin: 4px 1px 4px;
   background: transparent;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -157,22 +157,18 @@
 /* ── Widget: DND ──────────────────────────────────── */
 .widget-dnd {
   background: @noti-bg-alt;
-  border: 1px solid @noti-border;
-  border-radius: 8px;
+  border: 1px solid @blue-glow;
+  border-radius: 5px;
   padding: 6px 12px;
-  margin: 4px 4px;
+  margin: 4px 1px 4px;
   color: @text-primary;
   font-size: 0.85rem;
 }
 
 .widget-dnd > switch {
-  background: @blue-dim;
-  border-radius: 99px;
+  background: @border-gray;
+  border-radius: 25px;
   border: none;
-}
-
-.widget-dnd > switch:checked {
-  background: @cyan-accent;
 }
 
 .widget-dnd > switch slider {
@@ -180,6 +176,10 @@
   border-radius: 99px;
   min-width: 14px;
   min-height: 14px;
+}
+
+.widget-dnd > switch:checked {
+  background: @blue-alt;
 }
 
 /* ── Widget: Label ────────────────────────────────── */

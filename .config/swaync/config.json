@@ -28,7 +28,7 @@
       "app-name": ".*"
     }
   },
-  "widgets": ["title", "buttons-grid", "mpris", "volume", "backlight"],
+  "widgets": ["title", "dnd", "buttons-grid", "mpris", "volume", "backlight"],
   "widget-config": {
     "title": {
       "text": "SwayNC",
@@ -51,6 +51,7 @@
       "height": 10,
       "position": "top-right"
     },
+
     "buttons-grid": {
       "actions": [
         {
