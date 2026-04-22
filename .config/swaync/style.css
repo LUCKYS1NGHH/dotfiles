@@ -304,6 +304,5 @@ picture.mpris-background {
 }
 
 .notification-action > button:hover {
-  background: @noti-bg-hover;
-  color: @blue-hover;
+  background: @blue-gray;
 }
