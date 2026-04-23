@@ -22,14 +22,14 @@ cp -r .config/* ~/.config/
 
 | Name      | Description                                | Dependencies |
 |-----------|--------------------------------------------|--------------|
-| cava      | Terminal Audio Visualizer                  | N/A          |
+| cava      | Terminal Audio Visualizer                  | `pipewire`   |
 | clock-rs  | CLI clock                                  | N/A          |
 | waybar    | Status bar                                 | `swaync`, `pacman-contrib`, `NetworkManager`, `network-manager-applet`, `brightnessctl`, `pavucontrol`, `python3`, `python-requests` |
 | kitty     | Fast GPU-accelerated terminal              | `ttf-firacode-nerd` |
-| fastfetch | System info                                | N/A          |
-| hypr      | hyprland window-manager and it's utilities |  `hyprlock`, `hyprshot`, `swaync`, `waybar`, `hyprsunset`, `kitty`, `thunar`, `wl-clipboard`, `rofi` |
+| fastfetch | System info                                | A nerd font, recommend: `ttf-firacode-nerd` |
+| hypr      | hyprland window-manager and it's utilities |  `hyprlock`, `hyprshot`, `swaync`, `waybar`, `hyprsunset`, `kitty`, `thunar`, `wl-clipboard`, `rofi`, `cliphist` |
 | swaync    | Notification center                        |`hyprlock`, `network-manager-applet`, `blueman`, `obs-studio`, `pavucontrol` |
-| rofi      | Dynamic Menu                               | N/A          |
+| rofi      | Dynamic Menu                               | `cliphist`, `rofi-emoji`, `noto-fonts-emoji` |
 
 ## Key-bindings
 
