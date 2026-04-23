@@ -2,9 +2,9 @@
 
 ## Screenshots
 
-![](screenshots/image_1.png)
-![](screenshots/image_2.png)
-![](screenshots/image_3.png)
+![clock-rs, fastfetch and cava floating windows](screenshots/image_1.png)
+![clock-rs, unimatrix, cava and swaync](screenshots/image_2.png)
+![TUI code editor (LunarVim)](screenshots/image_3.png)
 
 ## Install
 
