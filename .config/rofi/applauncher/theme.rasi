@@ -25,8 +25,7 @@ window {
     padding:                     0px;
     border:                      0px solid;
     border-radius:               12px;
-    border-color:                @selected;
-    background-color:            @background;
+    background-color:            transparent;
     cursor:                      "default";
 }
 
@@ -91,7 +90,6 @@ listview {
     fixed-height:                true;
     fixed-columns:               true;
 
-    spacing:                     5px;
     margin:                      0px;
     padding:                     0px;
     text-color:                  @foreground;
@@ -102,7 +100,7 @@ listview {
     cursor:                      "default";
 }
 scrollbar {
-    handle-width:                5px ;
+    handle-width:                5px;
     handle-color:                @selected;
     border-radius:               0px;
     background-color:            @background-alt;
@@ -122,12 +120,12 @@ element {
     cursor:                      pointer;
 }
 element normal.normal {
-    background-color:            @background;
+    background-color:            transparent;
     text-color:                  @foreground;
 }
 element selected.normal {
-    background-color:            @background-alt;
-    text-color:                  @foreground;
+    background-color:            transparent;
+    text-color:                  @selected;
 }
 element-icon {
     background-color:            transparent;
