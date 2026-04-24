@@ -1,4 +1,6 @@
-# Arch Hyprland dotfiles
+# Arch Hyprland Dotfiles
+
+### A personal Hyprland setup on Arch Linux — tiling Wayland compositor with a curated set of tools for a clean, keyboard-driven workflow.
 
 ## Screenshots
 
