@@ -2,7 +2,7 @@
 
 ### A personal Hyprland setup on Arch Linux — tiling Wayland compositor with a curated set of tools for a clean, keyboard-driven workflow.
 
-## Screenshots
+## Showcase
 
 ![clock-rs, fastfetch and cava floating windows](screenshots/image_1.png)
 ![clock-rs, unimatrix, cava and swaync](screenshots/image_2.png)
@@ -21,16 +21,16 @@ cp -r .config/* ~/.config/
 ```
 
 ## Tools & Dependencies
-#### you can replace any of these tools with your preferred alternatives after cloning.
+#### You can replace any of these tools with your preferred alternatives after cloning.
 
-| Name      | Description                                | Dependencies |
+| Tool      | Description                                | Dependencies |
 |-----------|--------------------------------------------|--------------|
 | cava      | Terminal Audio Visualizer                  | `pipewire`   |
 | clock-rs  | CLI clock                                  | N/A          |
 | waybar    | Status bar                                 | `swaync`, `pacman-contrib`, `NetworkManager`, `network-manager-applet`, `brightnessctl`, `pavucontrol`, `python3`, `python-requests` |
 | kitty     | Fast GPU-accelerated terminal              | `ttf-firacode-nerd` |
 | fastfetch | System info                                | A nerd font, recommend: `ttf-firacode-nerd` |
-| hypr      | hyprland window-manager and it's utilities |  `hyprlock`, `hyprshot`, `swaync`, `waybar`, `hyprsunset`, `kitty`, `thunar`, `wl-clipboard`, `rofi`, `cliphist` |
+| hypr*     | hyprland window-manager and its utilities  |  `hyprlock`, `hyprshot`, `swaync`, `waybar`, `hyprsunset`, `kitty`, `thunar`, `wl-clipboard`, `rofi`, `cliphist` |
 | swaync    | Notification center                        |`hyprlock`, `network-manager-applet`, `blueman`, `obs-studio`, `pavucontrol` |
 | rofi      | Dynamic Menu                               | `cliphist`, `rofi-emoji`, `noto-fonts-emoji` |
 
