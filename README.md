@@ -1,15 +1,14 @@
-# Arch Hyprland Dotfiles
+# Arch Hyprland Dotfiles ⚡
 
 ### A personal Hyprland setup on Arch Linux — tiling Wayland compositor with a curated set of tools for a clean, keyboard-driven workflow.
 
-## Showcase
-
+## Showcase 🎨
 ![clock-rs, fastfetch and cava floating windows](screenshots/image_1.png)
 ![clock-rs, unimatrix, cava and swaync](screenshots/image_2.png)
 ![TUI code editor (LunarVim)](screenshots/image_3.png)
 ![unimatrix, rofi app launcher and pipes.sh](screenshots/image_4.png)
 
-## Install
+## Install 📦
 
 > [!IMPORTANT]
 > Before installing, please backup your `~/.config` directory.
@@ -20,7 +19,7 @@ cd dotfiles
 cp -r .config/* ~/.config/ 
 ```
 
-## Tools & Dependencies
+## Tools & Dependencies 🛠️
 #### You can replace any of these tools with your preferred alternatives after cloning.
 
 | Tool      | Description                                | Dependencies |
@@ -34,9 +33,9 @@ cp -r .config/* ~/.config/
 | swaync    | Notification center                        |`hyprlock`, `network-manager-applet`, `blueman`, `obs-studio`, `pavucontrol` |
 | rofi      | Dynamic Menu                               | `cliphist`, `rofi-emoji`, `noto-fonts-emoji` |
 
-## Key-bindings
+## Key-bindings ⌨️
 
-### Applications
+### Applications 🚀
 | Action | Keybinding |
 |--------|------------|
 | Terminal (`$terminal`) | `Super` + `Q` |
@@ -45,14 +44,14 @@ cp -r .config/* ~/.config/
 | wlogout | `Super` + `Shift` + `E` |
 | hyprshutdown / Hyprland exit | `Super` + `M` |
 
-### Screenshots (hyprshot)
+### Screenshots (hyprshot) 🖼️ 
 | Action | Keybinding |
 |--------|------------|
 | Full output | `Super` + `Shift` + `F` |
 | Window | `Super` + `Shift` + `W` |
 | Region | `Super` + `Shift` + `R` |
 
-### Rofi
+### Rofi 🔍
 | Action | Keybinding |
 |--------|------------|
 | App Launcher | `Super` + `D` |
@@ -60,7 +59,7 @@ cp -r .config/* ~/.config/
 | Emoji Picker | `Super` + `G` |
 | `$menu` | `Super` + `R` |
 
-### Window Management
+### Window Management 🪟
 | Action | Keybinding |
 |--------|------------|
 | Kill active window | `Super` + `C` |
@@ -69,7 +68,7 @@ cp -r .config/* ~/.config/
 | Toggle split (dwindle) | `Super` + `J` |
 | SwayNC notification panel | `Super` + `N` |
 
-### Focus
+### Focus 🎯
 | Action | Keybinding |
 |--------|------------|
 | Focus left | `Super` + `←` |
@@ -77,7 +76,7 @@ cp -r .config/* ~/.config/
 | Focus up | `Super` + `↑` |
 | Focus down | `Super` + `↓` |
 
-### Resize
+### Resize ↔️
 | Action | Keybinding |
 |--------|------------|
 | Expand right | `Super` + `Shift` + `→` |
@@ -85,7 +84,7 @@ cp -r .config/* ~/.config/
 | Shrink up | `Super` + `Shift` + `↑` |
 | Expand down | `Super` + `Shift` + `↓` |
 
-### Workspaces
+### Workspaces 🗂️
 | Action | Keybinding |
 |--------|------------|
 | Switch to workspace 1–10 | `Super` + `1`–`0` |
