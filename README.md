@@ -84,6 +84,14 @@ cp -r .config/* ~/.config/
 | Shrink up | `Super` + `Shift` + `↑` |
 | Expand down | `Super` + `Shift` + `↓` |
 
+### Swap 🔄
+| Action | keybinding |
+|--------|------------|
+| Swap with left window | `Super` + `Shift` + `h` |
+| Swap with right window | `Super` + `Shift` + `j` |
+| Swap with top window | `Super` + `Shift` + `k` |
+| Swap with bottom window | `Super` + `Shift` + `l` |
+
 ### Workspaces 🗂️
 | Action | Keybinding |
 |--------|------------|
