@@ -1,30 +1,37 @@
 @define-color bg #30343d;
+
 @define-color workspace-button-bg #24292e;
 @define-color workspace-button-fg #768ca3;
+@define-color workspace-button-hover-bg #ffffff;
+@define-color workspace-button-hover-fg #000000;
+@define-color workspace-button-active-bg #5c85e6;
+@define-color workspace-button-active-fg #ffffff;
 
-@define-color red #e6605c;
-@define-color dark-red #e34d4d;
+@define-color audio-fg #5c85e6;
+@define-color audio-muted-fg #e6605c;
 
-@define-color yellow #e6c15c;
+@define-color brightness-fg #e6c15c;
 
-@define-color green #7cdb7b;
+@define-color battery-fg #7cdb7b;
 
-@define-color cyan #7acbcc;
+@define-color updates-fg #7acbcc;
 
-@define-color blue #5c85e6;
-@define-color smooth-blue #67a9f0;
-@define-color skyblue #5caae6;
+@define-color clock-fg #67a9f0;
 
-@define-color orange #ebba8d;
+@define-color cpu-fg #ebba8d;
 
-@define-color pink #cf76c6;
+@define-color swaync-fg #ebba8d;
 
-@define-color white #ffffff;
+@define-color network-fg #cf76c6;
 
-@define-color gray-blue #1d2640;
+@define-color arch-logo #ffffff;
 
-@define-color black #000000;
+@define-color weather-text #bfbfbf;
 
-@define-color light-gray #cacfd0;
-@define-color gray #bfbfbf;
-@define-color dark-gray #1a1a1a;
+@define-color wlogout-fg #bfbfbf;
+
+@define-color tooltip-bg #1a1a1a;
+@define-color tooltip-fg #cacfd0;
+@define-color tooltip-border #5c85e6;
+
+@define-color wp-changer-fg #bfbfbf;

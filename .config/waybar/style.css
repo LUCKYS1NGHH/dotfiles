@@ -30,14 +30,14 @@ window#waybar {
 }
 
 #workspaces button.active {
-    background: @blue;
-    color: @white;
+    background: @workspace-button-active-bg;
+    color: @workspace-button-active-fg;
     padding: 0 23px;
 }
 
 #workspaces button:hover {
-    background: @white;
-    color: @black;
+    background: @workspace-button-hover-bg;
+    color: @workspace-button-hover-fg;
 }
 
 #custom-wallpaper-changer,
@@ -63,29 +63,29 @@ window#waybar {
 #custom-wlogout { border-radius: 0 20px 20px 0; }
 
 /* modules colors */
-#clock { color: @smooth-blue; }
-#custom-weather { color: @gray }
-#custom-wallpaper-changer { color: @gray }
-#custom-updates { color: @cyan; }
-#backlight { color: @yellow; }
-#pulseaudio { color: @blue; }
-#network { color: @pink; }
-#battery { color: @green; }
-#custom-wlogout { color: @gray }
-#custom-swaync { color: @orange; }
-#custom-cpu { color: @orange }
+#clock { color: @clock-fg; }
+#custom-weather { color: @weather-text; }
+#custom-wallpaper-changer { color: @wp-changer-fg; }
+#custom-updates { color: @updates-fg; }
+#backlight { color: @brightness-fg; }
+#pulseaudio { color: @audio-fg; }
+#network { color: @network-fg; }
+#battery { color: @battery-fg; }
+#custom-wlogout { color: @wlogout-fg; }
+#custom-swaync { color: @swaync-fg; }
+#custom-cpu { color: @cpu-fg; }
 
 /* Volume highlight when muted */
-#pulseaudio.muted { color: @red; }
+#pulseaudio.muted { color: @audio-muted-fg; }
 
 tooltip {
-  background: @dark-gray;
-  border: 1px solid @blue;
+  background: @tooltip-bg;
+  border: 1px solid @tooltip-border;
   border-radius: 8px;
 }
 
 tooltip label {
-  color: @light-gray;
+  color: @tooltip-fg;
   font-size: 12px;
   padding: 5px;
 }
