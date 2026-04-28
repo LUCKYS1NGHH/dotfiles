@@ -117,7 +117,7 @@
 .inline-reply-button:hover {
   background: @blue-gray;
   color: @cc-bg;
-  border-color: @blue-glow;
+  border-color: @accent;
 }
 
 .inline-reply-button:disabled {
@@ -130,7 +130,7 @@
 .widget-title {
   color: @cyan-accent;
   background: @noti-bg-alt;
-  border: 1px solid @blue-glow;
+  border: 1px solid @accent;
   border-radius: 5px;
   padding: 6px 12px;
   margin: 4px 1px 4px;
@@ -157,7 +157,7 @@
 /* ── Widget: DND ──────────────────────────────────── */
 .widget-dnd {
   background: @noti-bg-alt;
-  border: 1px solid @blue-glow;
+  border: 1px solid @accent;
   border-radius: 5px;
   padding: 6px 12px;
   margin: 4px 1px 4px;
