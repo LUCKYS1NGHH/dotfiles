@@ -16,7 +16,8 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       400px;
+    width:                       410px;
+    height:                      290px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -45,10 +46,10 @@ mainbox {
 /** ===== Inputbar ==== **/
 inputbar {
     enabled:                     true;
-    spacing:                     10px;
+    spacing:                     8px;
     margin:                      0px;
     border-color:                @selected;
-    padding:                     15px;
+    padding:                     12px;
     border:                      0px solid;
     border-radius:               0px;
     background-color:            @selected;
@@ -73,7 +74,7 @@ entry {
     background-color:            inherit;
     text-color:                  inherit;
     cursor:                      text;
-    placeholder:                 "Search...";
+    placeholder:                 "Search";
     placeholder-color:           inherit;
 }
 
@@ -129,7 +130,7 @@ element selected.normal {
 }
 element-icon {
     background-color:            transparent;
-    size:                        32px;
+    size:                        31px;
     text-color:                  inherit;
     cursor:                      inherit;
 }
