@@ -85,7 +85,7 @@ listview {
     lines:                       6;
     cycle:                       true;
     dynamic:                     true;
-    scrollbar:                   false;
+    scrollbar:                   true;
     layout:                      vertical;
     reverse:                     false;
     fixed-height:                true;
@@ -102,7 +102,7 @@ listview {
 }
 scrollbar {
     handle-width:                5px;
-    handle-color:                @selected;
+    handle-color:                @background;
     border-radius:               0px;
     background-color:            @background-alt;
 }
