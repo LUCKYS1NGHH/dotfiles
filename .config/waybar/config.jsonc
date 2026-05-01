@@ -142,8 +142,8 @@
     ],
     "states": {
       "good": 85,
-      "warning": 40,
-      "critical": 20
+      "warning": 30,
+      "critical": 15
     }
   }
 }

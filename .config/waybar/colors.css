@@ -13,6 +13,8 @@
 @define-color brightness-fg #e6c15c;
 
 @define-color battery-fg #7cdb7b;
+@define-color battery-fg-warning #f9d175;
+@define-color battery-fg-critical #f5524d;
 
 @define-color updates-fg #7acbcc;
 

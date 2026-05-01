@@ -77,8 +77,10 @@ window#waybar {
 #custom-swaync { color: @swaync-fg; }
 #custom-cpu { color: @cpu-fg; }
 
-/* Volume highlight when muted */
+/* Modules states */
 #pulseaudio.muted { color: @audio-muted-fg; }
+#battery.warning { color: @battery-fg-warning; }
+#battery.critical { color: @battery-fg-critical; }
 
 tooltip {
   background: @tooltip-bg;
