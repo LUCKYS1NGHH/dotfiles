@@ -72,6 +72,20 @@
     "tooltip-format": "Click to change wallpaper"
   },
 
+  "mpris": {
+    "format": "{status_icon} {artist} - {title}",
+    "format-paused": "{status_icon} {title}",
+    "dynamic-order": ["title", "artist", "album", "position", "length"],
+    "max-length": 35,
+    "tooltip": true,
+    "tooltip-format": "[{status}] {title} by {artist} ({album}) [{position} of {length}]",
+    "status-icons": {
+      "playing": "",
+      "paused": ""
+    },
+    "ignored-players": ["mpv", "vlc"]
+  },
+
   "modules-center": [
     "custom/arch",
     "clock",
@@ -85,6 +99,7 @@
     "network",
     "battery",
     "custom/swaync",
+    "mpris",
     "tray",
     "custom/wlogout"
   ],
