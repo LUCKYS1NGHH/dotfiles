@@ -2,9 +2,9 @@
 
 @define-color workspace-button-bg #24292e;
 @define-color workspace-button-fg #768ca3;
-@define-color workspace-button-hover-bg #ffffff;
-@define-color workspace-button-hover-fg #000000;
-@define-color workspace-button-active-bg #5c85e6;
+@define-color workspace-button-hover-bg #5473bc;
+@define-color workspace-button-hover-fg #ffffff;
+@define-color workspace-button-active-bg #7293e3;
 @define-color workspace-button-active-fg #ffffff;
 
 @define-color audio-fg #5c85e6;

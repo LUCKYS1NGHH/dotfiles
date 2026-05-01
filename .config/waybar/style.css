@@ -12,6 +12,7 @@
 window#waybar {
     background: transparent;
     margin: 5px 5px 0 5px;
+    transition: 0.22s;
 }
 
 /* Workspaces */
@@ -38,6 +39,7 @@ window#waybar {
 #workspaces button:hover {
     background: @workspace-button-hover-bg;
     color: @workspace-button-hover-fg;
+    padding: 0 17px;
 }
 
 #custom-wallpaper-changer,
