@@ -26,7 +26,7 @@ cp -r .config/* ~/.config/
 |-----------|--------------------------------------------|--------------|
 | cava      | Terminal Audio Visualizer                  | `pipewire`   |
 | clock-rs  | CLI clock                                  | N/A          |
-| waybar    | Status bar                                 | `swaync`, `pacman-contrib`, `NetworkManager`, `network-manager-applet`, `brightnessctl`, `pavucontrol`, `python3`, `python-requests` |
+| waybar    | Status bar                                 | `swaync`, `pacman-contrib`, `NetworkManager`, `network-manager-applet`, `brightnessctl`, `pavucontrol`, `python3`, `python-requests`, `ttf-jetbrains-mono-nerd`, `ttf-firacode-nerd`, `noto-fonts-cjk` |
 | kitty     | Fast GPU-accelerated terminal              | `ttf-firacode-nerd` |
 | fastfetch | System info                                | A nerd font, recommend: `ttf-firacode-nerd` |
 | hypr*     | hyprland window-manager and its utilities  |  `hyprlock`, `hyprshot`, `swaync`, `waybar`, `hyprsunset`, `kitty`, `thunar`, `wl-clipboard`, `rofi`, `cliphist` |
