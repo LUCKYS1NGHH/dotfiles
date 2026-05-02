@@ -77,12 +77,13 @@ window#waybar {
 #custom-wlogout { color: @wlogout-fg; }
 #custom-swaync { color: @swaync-fg; }
 #custom-cpu { color: @cpu-fg; }
-#mpris { color: @mpris-fg; }
+#mpris { color: @mpris-fg; transition: 0.40s; }
 
 /* Modules states */
 #pulseaudio.muted { color: @audio-muted-fg; }
 #battery.warning { color: @battery-fg-warning; }
 #battery.critical { color: @battery-fg-critical; }
+#mpris.paused { color: @mpris-fg-paused; }
 
 tooltip {
   background: @tooltip-bg;
