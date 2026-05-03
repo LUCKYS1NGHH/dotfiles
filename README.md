@@ -19,7 +19,12 @@ cd dotfiles
 cp -r .config/* ~/.config/ 
 ```
 
+> ##### If you want more waybar style options, checkout my [`waybar-configs`](https://github.com/LUCKYS1NGHH/waybar-configs.git) collection
+
+---
+
 ## Tools & Dependencies 🛠️
+
 #### You can replace any of these tools with your preferred alternatives after cloning.
 
 | Tool      | Description                                | Dependencies |
