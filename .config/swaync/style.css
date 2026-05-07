@@ -159,22 +159,26 @@
   border: 1px solid @accent;
   border-radius: 5px;
   padding: 6px 12px;
-  margin: 4px 1px 4px;
+  margin: 4px 1px;
   color: @text-primary;
   font-size: 0.85rem;
 }
 
 .widget-dnd > switch {
   background: @gray;
-  border-radius: 25px;
+  border-radius: 99px;        /* rounded rectangle track */
   border: none;
+  padding: 2px;
+  min-width: 24px;
+  min-height: 15px;
 }
 
 .widget-dnd > switch slider {
   background: @cc-bg;
-  border-radius: 99px;
-  min-width: 14px;
-  min-height: 14px;
+  border-radius: 99px;       /* perfect circle */
+  min-width: 18px;
+  min-height: 18px;
+  margin: 0;
 }
 
 .widget-dnd > switch:checked {
@@ -198,7 +202,7 @@
 
 .widget-buttons-grid > flowbox > flowboxchild > button {
   margin: 3px;
-  padding: 1px 21px;
+  padding: 1px 16px;
   background: @noti-bg-bright;
   color: @text-muted;
   border: 1px solid transparent;
