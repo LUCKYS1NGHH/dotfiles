@@ -18,9 +18,8 @@
 
 .notification {
   background: @noti-bg;
-  border: 1px solid @noti-border;
   border-radius: 10px;
-  padding: 4px 2px 4px 4px;
+  padding: 4px;
   margin: 4px 2px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.5);
 }
@@ -84,7 +83,7 @@
 /* ── Actions ──────────────────────────────────────── */
 .notification-default-action,
 .notification-action {
-  border-radius: 5px;
+  border-radius: 6px;
   border: 1px solid @blue-gray;
   color: @text-primary;
   background: @noti-bg-alt;
