@@ -1,5 +1,5 @@
 @define-color cc-bg #1b1d1f;
-@define-color accent #429bf3;
+@define-color accent #5f8ddf;
 
 @define-color noti-bg #1e2124;
 @define-color noti-bg-hover #5f8ddf;
@@ -18,3 +18,4 @@
 @define-color blue-alt #6ea2f2;
 
 @define-color gray #939393;
+@define-color light-gray #bfbfbf;

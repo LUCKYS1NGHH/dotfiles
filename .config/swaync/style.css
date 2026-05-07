@@ -231,22 +231,23 @@
 }
 
 .widget-volume {
-  margin: 3px 12px 1px 18px;
+  margin: 10px 12px 1px 20px;
   padding: 2px;
 }
 
 .widget-backlight {
-  margin: 1px 12px 1px 18px;
+  margin: 2px 12px 1px 18px;
   padding: 2px;
 }
 
-.widget-backlight scale slider {
-  border-radius: 99px; /* the drag handle */
-}
+/* drag handle */
+.widget-volume scale slider, .widget-backlight scale slider { border-radius: 99px; color: @light-gray; }
 
-.widget-volume scale slider {
-  border-radius: 99px; /* the drag handle */
-}
+/* border radius of bar */
+.widget-volume scale trough, .widget-backlight scale trough { border-radius: 99px; }
+
+/* bar filled portion */
+.widget-volume scale trough highlight, .widget-backlight scale trough highlight { background: @noti-bg-hover; }
 
 /* ── Widget: MPRIS ────────────────────────────────── */
 .widget-mpris {
