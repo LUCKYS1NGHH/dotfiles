@@ -10,10 +10,10 @@
 
 /* ── Control Center Shell ─────────────────────────── */
 .control-center {
-  background: @cc-bg;
+  background: @bg;
   border-radius: 10px;
   padding: 6px;
-  box-shadow: 0 0 18px rgba(58, 110, 200, 0.18);
+  box-shadow: 0 0 18px @accent-shadow;
 }
 
 .notification {
@@ -35,7 +35,7 @@
 .summary {
   font-size: 12px;
   font-weight: 700;
-  color: @green-glow;
+  color: @noti-heading;
   background: transparent;
   text-shadow: none;
 }
@@ -72,12 +72,12 @@
 
 .notification:hover .close-button {
   opacity: 0.7;
-  color: @red-hover;
+  color: @noti-hover;
 }
 
 .close-button:hover {
-  background: @red-base;
-  color: @cc-bg;
+  background: @noti-close-button-hover;
+  color: @bg;
 }
 
 /* ── Actions ──────────────────────────────────────── */
@@ -92,15 +92,15 @@
 
 .notification-default-action:hover,
 .notification-action:hover {
-  background: @noti-bg-hover-2;
-  color: @cyan-accent;
+  background: @noti-bg-action-hover;
+  color: @noti-fg-action-hover;
 }
 
 /* ── Inline Reply ─────────────────────────────────── */
 .inline-reply-entry {
   background: @noti-bg-alt;
   color: @text-primary;
-  caret-color: @cyan-accent;
+  caret-color: @accent;
   border: 1px solid @noti-border;
   border-radius: 6px;
 }
@@ -114,8 +114,8 @@
 }
 
 .inline-reply-button:hover {
-  background: @blue-gray;
-  color: @cc-bg;
+  background: white;
+  color: @bg;
   border-color: @accent;
 }
 
@@ -148,9 +148,9 @@
 }
 
 .widget-title > button:hover {
-  background: @red-hover;
+  background: @noti-hover;
   color: @blue-gray;
-  border-color: @red-base;
+  border-color: @noti-hover-button;
 }
 
 /* ── Widget: DND ──────────────────────────────────── */
@@ -165,7 +165,7 @@
 }
 
 .widget-dnd > switch {
-  background: @gray;
+  background: @bg-dnd-off;
   border-radius: 99px;        /* rounded rectangle track */
   border: none;
   padding: 2px;
@@ -174,7 +174,7 @@
 }
 
 .widget-dnd > switch slider {
-  background: @cc-bg;
+  background: @bg;
   border-radius: 99px;       /* perfect circle */
   min-width: 18px;
   min-height: 18px;
@@ -182,7 +182,7 @@
 }
 
 .widget-dnd > switch:checked {
-  background: @blue-alt;
+  background: @accent;
 }
 
 /* ── Widget: Label ────────────────────────────────── */
@@ -214,13 +214,13 @@
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button:hover {
-  background: @noti-bg-hover;
-  color: @cyan-accent;
+  background: @accent;
+  color: @text-primary;
 }
 
 .widget-buttons-grid > flowbox > flowboxchild > button:checked {
-  background: @green-base;
-  color: @cyan-accent;
+  background: @widget-button-checked;
+  color: @text-primary;
 }
 
 /* ── Widget: Volume ───────────────────────────────── */
@@ -241,17 +241,17 @@
 }
 
 /* drag handle */
-.widget-volume scale slider, .widget-backlight scale slider { border-radius: 99px; color: @light-gray; }
+.widget-volume scale slider, .widget-backlight scale slider { border-radius: 99px; color: @accent; }
 
 /* border radius of bar */
 .widget-volume scale trough, .widget-backlight scale trough { border-radius: 99px; }
 
 /* bar filled portion */
-.widget-volume scale trough highlight, .widget-backlight scale trough highlight { background: @noti-bg-hover; }
+.widget-volume scale trough highlight, .widget-backlight scale trough highlight { background: @accent; }
 
 /* ── Widget: MPRIS ────────────────────────────────── */
 .widget-mpris {
-  background: @noti-bg-mpris;
+  background: @bg-mpris;
   border-radius: 12px;
   margin: 2px 14px 2px 14px;
   color: @text-primary;
@@ -279,7 +279,7 @@
 }
 
 .widget-mpris > box > button:hover {
-  background: @noti-bg-hover;
+  background: @accent;
   color: @cyan-accent;
   border-color: @noti-border-hi;
 }

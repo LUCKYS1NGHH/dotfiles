@@ -1,21 +1,24 @@
-@define-color cc-bg #1b1d1f;
-@define-color accent #5f8ddf;
+@define-color bg #17191c;
+
+@define-color text-primary #ffffff;
+@define-color text-muted #ededed;
+
+@define-color accent #5792fb;
+@define-color accent-shadow rgba(58, 110, 200, 0.18);
 
 @define-color noti-bg #1e2124;
-@define-color noti-bg-hover #5f8ddf;
-@define-color noti-bg-hover-2 #292a2d;
+
+@define-color noti-bg-action-hover #292a2d;
+@define-color noti-fg-action-hover #ffffff;
+
 @define-color noti-bg-bright #242424;
-@define-color noti-bg-mpris #252626;
+@define-color bg-mpris #252626;
+
 @define-color border-gray #7e8a94;
 
-@define-color red-base #e6605c;
-@define-color red-hover #ee4646;
+@define-color noti-hover #e6605c;
+@define-color noti-close-button-hover #ee4646;
 
-@define-color green-base #67c66a;
-@define-color green-glow #7dea70;
-@define-color border-green #7cdb7b;
+@define-color noti-heading #64e268;
 
-@define-color blue-alt #6ea2f2;
-
-@define-color gray #939393;
-@define-color light-gray #bfbfbf;
+@define-color widget-button-checked #4ec051;
