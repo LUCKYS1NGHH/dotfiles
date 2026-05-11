@@ -7,6 +7,7 @@
 @define-color accent-shadow rgba(58, 110, 200, 0.18);
 
 @define-color noti-bg #1e2124;
+@define-color noti-border #efefef;
 
 @define-color noti-bg-action-hover #292a2d;
 @define-color noti-fg-action-hover #ffffff;

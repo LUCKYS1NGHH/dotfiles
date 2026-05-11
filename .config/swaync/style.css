@@ -84,7 +84,7 @@
 .notification-default-action,
 .notification-action {
   border-radius: 6px;
-  border: 1px solid @blue-gray;
+  border: 0.6px solid @noti-border;
   color: @text-primary;
   background: @noti-bg-alt;
   margin: 0.5px;
