@@ -62,6 +62,7 @@ cp -r .config/* ~/.config/
 | App Launcher | `Super` + `D` |
 | Clipboard History (cliphist) | `Super` + `Shift` + `V` |
 | Emoji Picker | `Super` + `G` |
+| Wallpaper Changer (Pick) | `Super` + `W` |
 | `$menu` | `Super` + `R` |
 
 ### Window Management 🪟
