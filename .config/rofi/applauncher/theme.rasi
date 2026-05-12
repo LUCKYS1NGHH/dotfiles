@@ -100,8 +100,9 @@ listview {
     background-color:            transparent;
     cursor:                      "default";
 }
+
 scrollbar {
-    handle-width:                5px;
+    handle-width:                0;
     handle-color:                @background;
     border-radius:               0px;
     background-color:            @background-alt;
