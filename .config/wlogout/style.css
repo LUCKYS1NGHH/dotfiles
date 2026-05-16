@@ -5,11 +5,11 @@
 }
 
 window {
-	background-color: rgba(11, 10, 11, 0.9);
+	background-color: rgba(10, 10, 10, 0.9);
 }
 
 button {
-    border-radius: 10px;
+    border-radius: 15px;
     border-color: rgba(0,0,0,0);
 	text-decoration-color: #FFFFFF;
     color: #d6d6d6;
@@ -18,13 +18,16 @@ button {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 15%;
-  margin: 6px;
+  margin: 5px;
   font-size: 14px;
+  transition: all 0.25s ease;
 }
 
 button:focus, button:active, button:hover {
-	background-color: rgba(67,100,179,0.9);
+	background-color: rgba(80,121,220,0.9);
 	outline-style: none;
+  background-size: 22%;
+  font-weight: 900;
 }
 
 #lock {
