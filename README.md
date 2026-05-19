@@ -10,13 +10,15 @@
 
 ## Install 📦
 
+
 > [!IMPORTANT]
 > Before installing, please backup your `~/.config` directory.
+> Also your Hyprland version should be 0.55v+, so it can use the lua config.
 
 ```bash
 git clone --depth=1 https://github.com/LUCKYS1NGHH/dotfiles.git
 cd dotfiles
-cp -r .config/* ~/.config/ 
+cp -r .config/* ~/.config/
 ```
 
 > ##### If you want more waybar style options, checkout my [`waybar-configs`](https://github.com/LUCKYS1NGHH/waybar-configs.git) collection
