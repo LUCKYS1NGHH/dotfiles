@@ -24,7 +24,7 @@ button {
 }
 
 button:focus, button:active, button:hover {
-	background-color: rgba(80,121,220,0.9);
+	background-color: rgba(74,111,201,1);
 	outline-style: none;
   background-size: 22%;
   font-weight: 900;
