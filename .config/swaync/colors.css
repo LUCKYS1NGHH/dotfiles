@@ -1,4 +1,4 @@
-@define-color bg #17191c;
+@define-color bg rgba(23, 25, 28, 1);
 
 @define-color text-primary #ffffff;
 @define-color text-muted #ededed;
@@ -6,8 +6,8 @@
 @define-color accent #5792fb;
 @define-color accent-shadow rgba(58, 110, 200, 0.18);
 
-@define-color noti-bg #1e2124;
-@define-color noti-border #efefef;
+@define-color noti-bg rgba(30, 33, 36, 0.3);
+@define-color noti-border #fcfcfc;
 
 @define-color noti-bg-action-hover #292a2d;
 @define-color noti-fg-action-hover #ffffff;
@@ -22,4 +22,7 @@
 
 @define-color noti-heading #64e268;
 
+@define-color widget-button #242424;
 @define-color widget-button-checked #4ec051;
+
+@define-color bg-dnd-off #7e8a94;

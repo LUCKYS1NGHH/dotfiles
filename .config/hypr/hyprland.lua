@@ -442,6 +442,7 @@ hl.window_rule({
 
 -- Mini layer rules
 hl.layer_rule({ match = { namespace = "rofi" }, blur = true })
+hl.layer_rule({ match = { namespace = "swaync-notification-window" }, blur = true, ignore_alpha = 0.2 })
 
 -- Mini window rules
 hl.window_rule({ match = { class = "kitty" }, opacity = "0.87 override 0.85" })
