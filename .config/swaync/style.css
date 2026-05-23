@@ -93,6 +93,10 @@
   margin: 1px;
 }
 
+.notification-action {
+  border: 0.3px solid @noti-border;
+}
+
 .notification-default-action:hover,
 .notification-action:hover {
   background: @noti-bg-action-hover;
