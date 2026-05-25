@@ -3,11 +3,15 @@
 ### A personal Hyprland setup on Arch Linux — tiling Wayland compositor with a curated set of tools for a clean, keyboard-driven workflow.
 
 ---
+
 ## Performance
 ### Runs smooth in NO-GPU Desktops/Laptops
 
 ##### CPU usage (idle): 3-4%
-##### Ram Usage (idle): 150-200 MB
+##### Ram Usage (idle): 300-400 MB
+> Hyprland, swaync and waybar
+
+---
 
 ## Showcase 🎨
 ![clock-rs, fastfetch and cava floating windows](screenshots/image_1.png)
@@ -16,7 +20,6 @@
 ![unimatrix, rofi app launcher and pipes.sh](screenshots/image_4.png)
 
 ## Install 📦
-
 
 > [!IMPORTANT]
 > Before installing, please backup your `~/.config` directory.
