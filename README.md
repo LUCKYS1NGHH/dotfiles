@@ -14,10 +14,15 @@
 ---
 
 ## Showcase 🎨
-![clock-rs, fastfetch and cava floating windows](screenshots/image_1.png)
-![clock-rs, unimatrix, cava and swaync](screenshots/image_2.png)
-![TUI code editor (LunarVim)](screenshots/image_3.png)
-![unimatrix, rofi app launcher and pipes.sh](screenshots/image_4.png)
+
+<p>
+  <img src="screenshots/image_1.png" width="49%" alt="clock-rs, fastfetch and cava floating windows](screenshots/image_1.png">
+  <img src="screenshots/image_2.png" width="49%" alt="clock-rs, unimatrix, cava and swaync](screenshots/image_2.png">
+  <img src="screenshots/image_3.png" width="49%" alt="TUI code editor (LunarVim)">
+  <img src="screenshots/image_4.png" width="49%" alt="unimatrix, rofi app launcher and pipes.sh">
+  <img src="screenshots/image_5.png" width="49%" alt="hyprlock interface, with profile picture, datetime, username, uptime and weather">
+  <img src="screenshots/image_6.png" width="49%" alt="nitch in left, cava in right, with a blur BG notification">
+</p>
 
 ## Install 📦
 
