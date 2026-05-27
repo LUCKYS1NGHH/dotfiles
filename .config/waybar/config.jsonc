@@ -106,13 +106,17 @@
 
   "clock": {
     "format": "󰥔 {:%I:%M %p}",
-    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "tooltip-format": "<span font_size='15pt'>{calendar}</span>",
     "calendar": {
         "mode": "month",
         "mode-mon-col": 3,
         "weeks-pos": "left",
         "format": {
-            "today": "<span color='#ff5555'><b>{}</b></span>"
+            "months":   "<span color='#cdd6f4' font_size='8pt'><b>{}</b></span>",
+            "days":     "<span color='#aeb4cd' font_size='8pt'>{}</span>",
+            "weeks":    "<span color='#4f4f4f' font_size='8pt'><b>W{}</b></span>",
+            "weekdays": "<span color='#83b2ff' font_size='8pt'><b>{}</b></span>",
+            "today":    "<span color='#ff4d4d' font_size='8pt'><b><u>{}</u></b></span>"
         }
     }
   },
