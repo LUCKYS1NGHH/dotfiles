@@ -1,15 +1,16 @@
 # Arch Hyprland Dotfiles ⚡
 
-### A personal Hyprland setup on Arch Linux — tiling Wayland compositor with a curated set of tools for a clean, keyboard-driven workflow.
+A personal Hyprland setup on Arch Linux — tiling Wayland compositor with a curated set of tools for a clean, keyboard-driven workflow.
 
 ---
 
 ## Performance
-### Runs smooth in NO-GPU Desktops/Laptops
 
-##### CPU usage (idle): 3-4%
+Runs smooth in NO-GPU Desktops/Laptops
+
+##### CPU usage (idle): 2-4%
 ##### Ram Usage (idle): 300-400 MB
-> Hyprland, swaync and waybar
+> Hyprland, SwayNC and Waybar usage combined
 
 ---
 
