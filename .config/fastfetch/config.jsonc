@@ -249,11 +249,6 @@
         "type": 0
       }
     },
-    {
-      "type": "command",
-      "key": "󰼀 ",
-      "text": "echo $(cat /home/xingyun/.cache/imageio/tags_cache.meta | jq .attempts_since_build)"
-    },
     "break",
     {
       "type": "colors",
