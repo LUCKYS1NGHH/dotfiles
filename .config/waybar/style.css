@@ -13,17 +13,19 @@ window#waybar {
     background: transparent;
     margin: 5px 5px 0 5px;
     transition: 0.22s;
+    padding: 0 5px;
 }
 
 /* Workspaces */
 #workspaces {
-    padding: 0 2.7px;
+    padding: 0 2.5px;
     background: @bg;
 }
 
 #workspaces button {
-    padding: 0 5px;
-    margin: 4px 2px;
+    padding: 0 3px;
+    margin: 4.5px 2px;
+    min-height: 20px;
     border-radius: 15px;
     background: @workspace-button-bg;
     color: @workspace-button-fg;
@@ -33,13 +35,13 @@ window#waybar {
 #workspaces button.active {
     background: @workspace-button-active-bg;
     color: @workspace-button-active-fg;
-    padding: 0 20px;
+    min-width: 45px;
 }
 
 #workspaces button:hover {
     background: @workspace-button-hover-bg;
     color: @workspace-button-hover-fg;
-    padding: 0 15px;
+    min-width: 38px;
 }
 
 #custom-wallpaper-changer,
@@ -87,8 +89,8 @@ window#waybar {
 
 tooltip {
   background: @tooltip-bg;
-  border: 1px solid @tooltip-border;
-  border-radius: 8px;
+  border: none;
+  border-radius: 10px;
 }
 
 tooltip label {
