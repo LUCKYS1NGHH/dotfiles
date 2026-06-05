@@ -21,6 +21,7 @@
 @define-color noti-heading #64e268;
 
 @define-color widget-button #242424;
-@define-color widget-button-checked #4ec051;
+@define-color widget-button-checked #4ab854;
+@define-color widget-button-checked-fg #000000;
 
-@define-color bg-dnd-off #7e8a94;
+@define-color bg-dnd-off #5b5d5e;

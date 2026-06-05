@@ -166,7 +166,7 @@
   border: 1px solid @accent;
   border-radius: 8px;
   padding: 6px 10px;
-  margin: 2px 8px 8px;
+  margin: 2px 8px 4px;
   color: @text-primary;
   font-size: 0.85rem;
 }
@@ -227,7 +227,7 @@
 
 .widget-buttons-grid > flowbox > flowboxchild > button:checked {
   background: @widget-button-checked;
-  color: @text-primary;
+  color: @widget-button-checked-fg;
 }
 
 /* ── Widget: Volume ───────────────────────────────── */
