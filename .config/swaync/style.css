@@ -11,9 +11,9 @@
 /* ── Control Center Shell ─────────────────────────── */
 .control-center {
   background: @bg;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 6px;
-  box-shadow: 0 0 18px @accent-shadow;
+  box-shadow: 0 0 15px @accent-shadow;
 }
 
 .notification {
@@ -137,9 +137,9 @@
   color: @cyan-accent;
   background: @noti-bg-alt;
   border: 1px solid @accent;
-  border-radius: 5px;
-  padding: 6px 12px;
-  margin: 4px 4px 4px;
+  border-radius: 8px;
+  padding: 6px 10px;
+  margin: 8px 8px 8px;
   font-size: 1.2rem;
   font-weight: 700;
 }
@@ -164,9 +164,9 @@
 .widget-dnd {
   background: @noti-bg-alt;
   border: 1px solid @accent;
-  border-radius: 5px;
-  padding: 6px 12px;
-  margin: 4px 4px 4px;
+  border-radius: 8px;
+  padding: 6px 10px;
+  margin: 2px 8px 8px;
   color: @text-primary;
   font-size: 0.85rem;
 }
