@@ -292,21 +292,22 @@
 }
 
 .widget-mpris-player {
-  border-radius: 9.5px;
+  border-radius: 6px;
   box-shadow: none;
-  margin: 3px;
-  font-size: 0.88rem;
+  margin: 8px;
+  font-size: 0.85rem;
 }
 
 .widget-mpris-album-art {
-  -gtk-icon-size: 60px;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: none;
-  margin: 5px;
+  margin: 5px 5px 2px 2px;
+  width: 5px;
+  height: 5px;
 }
 
 picture.mpris-background {
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
 /* ── Action Button ────────────────────────────────── */
