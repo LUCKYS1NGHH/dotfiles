@@ -18,10 +18,10 @@
 
 .notification {
   background: @noti-bg;
-  border-radius: 11px;
-  padding: 5px;
-  margin: 2px 2px;
-  box-shadow: 1px 1px 8px 2px rgba(0,0,0,0.4);
+  border-radius: 12px;
+  padding: 4.8px;
+  margin: 2px;
+  box-shadow: 0.5px 0.5px 8px 0.5px rgba(0,0,0,0.6);
 }
 
 /* ── Notification Row ──────── */
@@ -34,11 +34,11 @@
 /* ── Notification Heading ─────── */
 .summary {
   font-size: 11.5px;
-  font-weight: 700;
+  font-weight: bold;
   color: @noti-heading;
   background: transparent;
   text-shadow: none;
-  margin-left: 5px;
+  margin-left: 4.5px;
 }
 
 /* -- Notification Description -- */
