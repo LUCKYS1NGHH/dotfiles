@@ -7,6 +7,8 @@
 @define-color accent-shadow rgba(58, 110, 200, 0.18);
 
 @define-color noti-bg rgba(26, 26, 26, 0.4);
+@define-color noti-bg-low rgba(64, 80, 86, 0.4);
+@define-color noti-bg-critical rgba(86, 74, 64, 0.4);
 @define-color noti-border #7e8a94;
 
 @define-color noti-bg-action-hover #292a2d;

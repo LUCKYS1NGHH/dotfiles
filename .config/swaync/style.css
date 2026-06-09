@@ -318,3 +318,6 @@ picture.mpris-background {
 .notification-action > button:hover {
   background: @blue-gray;
 }
+
+.notification.low { background: @noti-bg-low; }
+.notification.critical { background: @noti-bg-critical; }
