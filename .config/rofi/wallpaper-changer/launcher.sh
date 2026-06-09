@@ -15,3 +15,7 @@ FULL_PATH=$(find "$WALLPAPER_DIR" -type f ! -name ".*" \( -name "*.jpg" -o -name
 [ -z "$FULL_PATH" ] && exit 1
 
 awww img "$FULL_PATH" --transition-type random --transition-duration 2.5
+
+base=$(basename "$FULL_PATH")
+
+sed -i 's|path = ~/Pictures/wallpapers/.*|path = ~/Pictures/wallpapers/'"$base"'|' ~/.config/hypr/hyprlock.conf
