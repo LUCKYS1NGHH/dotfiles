@@ -13,7 +13,7 @@ button {
     border-color: rgba(0,0,0,0);
 	text-decoration-color: #FFFFFF;
     color: #d6d6d6;
-	background-color: rgba(31,31,31,0.8);
+	background-color: rgba(31,31,31,0.9);
 	border: 1px solid #131313;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -24,7 +24,7 @@ button {
 }
 
 button:focus, button:active, button:hover {
-	background-color: rgba(255,255,255,0.25);
+	background-color: rgba(56,56,56,0.80);
 	outline-style: none;
   background-size: 22%;
   font-weight: 800;
