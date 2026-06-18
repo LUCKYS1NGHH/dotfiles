@@ -126,8 +126,8 @@ cp -r .config/* ~/.config/
 | Next workspace (scroll) | `Super` + `Scroll Down` |
 | Previous workspace (scroll) | `Super` + `Scroll Up` |
 
-[!NOTE]
-It's possible that the dotfiles not working properly on your system.
+> [!NOTE]
+> It's possible that the dotfiles not working properly on your system.
 
 ## Author
 
