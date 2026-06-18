@@ -125,3 +125,10 @@ cp -r .config/* ~/.config/
 | Move window to special workspace | `Super` + `Shift` + `S` |
 | Next workspace (scroll) | `Super` + `Scroll Down` |
 | Previous workspace (scroll) | `Super` + `Scroll Up` |
+
+[!NOTE]
+It's possible that the dotfiles not working properly on your system.
+
+## Author
+
+LUCKYS1NGHH / https://github.com/LUCKYS1NGHH/dotfiles
