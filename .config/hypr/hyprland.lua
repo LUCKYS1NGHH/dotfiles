@@ -10,6 +10,9 @@
 -- require("myColors")
 
 local colors = require("colors")
+local MAX_ZOOM = 3
+local MIN_ZOOM = 1
+local ZOOM_TOGGLE_FACTOR = 1.5
 
 ------------------
 ---- MONITORS ----
@@ -322,6 +325,26 @@ hl.bind(mainMod .. " + K", hl.dsp.window.swap( { direction = "u"} ))
 hl.bind(mainMod .. " + L", hl.dsp.window.swap( { direction = "d"} ))
 
 
+-- Magnifier
+
+local function zoom(offset)
+    local current = hl.get_config("cursor.zoom_factor")
+    if offset ~= nil then
+        current = current + offset
+    elseif current ~= MIN_ZOOM then
+        current = MIN_ZOOM
+    else
+        current = ZOOM_TOGGLE_FACTOR
+    end
+    current = math.max(MIN_ZOOM, math.min(MAX_ZOOM, current))
+    hl.config({ cursor = { zoom_factor = current } })
+end
+
+hl.bind("SUPER + Z", zoom)
+hl.bind("SUPER + KP_ADD", function() zoom(0.5) end)
+hl.bind("SUPER + minus", function() zoom(-0.5) end)
+
+
 -- Switch workspaces with mainMod + [0-9]
 -- Move active window to a workspace with mainMod + SHIFT + [0-9]
 for i = 1, 10 do
@@ -355,7 +378,6 @@ hl.bind("XF86AudioNext",  hl.dsp.exec_cmd("playerctl next"),       { locked = tr
 hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
-
 
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----

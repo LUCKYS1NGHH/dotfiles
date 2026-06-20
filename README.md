@@ -126,6 +126,13 @@ cp -r .config/* ~/.config/
 | Next workspace (scroll) | `Super` + `Scroll Down` |
 | Previous workspace (scroll) | `Super` + `Scroll Up` |
 
+### Magnifier 🔍
+| Action | Keybinding |
+|--------|------------|
+| Zoom-In | `Super` + `Z` |
+| Zoom-In Increase | `Super` + `KP_ADD` |
+| Zoom-Out | `Super` + `minus` |
+
 > [!NOTE]
 > It's possible that the dotfiles not working properly on your system.
 
