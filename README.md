@@ -6,9 +6,10 @@ A personal Hyprland setup on Arch Linux — tiling Wayland compositor with a cur
 
 ## Performance
 
-Runs smooth in NO-GPU Desktops/Laptops
+Runs smooth in No-GPU Desktops or Laptops
 
 ##### CPU usage (idle): 2-4%
+
 ##### Ram Usage (idle): 300-400 MB
 > Hyprland, SwayNC and Waybar usage combined
 
@@ -29,7 +30,7 @@ Runs smooth in NO-GPU Desktops/Laptops
 
 > [!IMPORTANT]
 > Before installing, please backup your `~/.config` directory.
-> Also your Hyprland version should be 0.55v+, so it can use the lua config.
+> Also your Hyprland version should be 0.55v+, so it can use the NEW Lua config.
 
 ```bash
 git clone --depth=1 https://github.com/LUCKYS1NGHH/dotfiles.git
@@ -37,7 +38,7 @@ cd dotfiles
 cp -r .config/* ~/.config/
 ```
 
-> ##### If you want more waybar style options, checkout my [`waybar-configs`](https://github.com/LUCKYS1NGHH/waybar-configs.git) collection
+> ##### If you want more Waybar style options, checkout my [`waybar-configs`](https://github.com/LUCKYS1NGHH/waybar-configs.git) collection
 
 ---
 
@@ -133,9 +134,11 @@ cp -r .config/* ~/.config/
 | Zoom-In Increase | `Super` + `KP_ADD` |
 | Zoom-Out | `Super` + `minus` |
 
+---
+
 > [!NOTE]
 > It's possible that the dotfiles not working properly on your system.
 
-## Author
+## Ricer
 
 LUCKYS1NGHH / https://github.com/LUCKYS1NGHH/dotfiles
