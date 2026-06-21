@@ -18,10 +18,10 @@
 
 .notification {
   background: @noti-bg;
-  border-radius: 12px;
-  padding: 4.8px;
+  border-radius: 15px;
+  padding: 4.7px;
   margin: 2px;
-  box-shadow: 0.5px 0.5px 8px 0.5px rgba(0,0,0,0.6);
+  box-shadow: 0.5px 0.5px 5px 0.5px rgba(0,0,0,0.5);
 }
 
 /* ── Notification Row ──────── */
