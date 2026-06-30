@@ -289,7 +289,6 @@ hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd("hyprshot -m region --clipboa
 -- Binds for Other Apps
 hl.bind(mainMod .. " + Q",         hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exec_cmd("wlogout"))
-hl.bind(mainMod .. " + + B", hl.dsp.exec_cmd(brave))
 hl.bind(mainMod .. " + D",         hl.dsp.exec_cmd("~/.config/rofi/applauncher/launcher.sh || pkill rofi"))
 hl.bind(mainMod .. " + G",         hl.dsp.exec_cmd("~/.config/rofi/emoji/launcher.sh || pkill rofi"))
 hl.bind(mainMod .. " + CTRL + V",  hl.dsp.exec_cmd("~/.config/rofi/cliphist/launcher.sh || pkill rofi"))
