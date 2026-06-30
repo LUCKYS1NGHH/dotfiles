@@ -137,12 +137,12 @@ hl.config({
             size      = 4,
             passes    = 5,
             vibrancy  = 0.1685,
-            brightness = 0.9,
+            brightness = 0.88,
             contrast = 0.9,
-            noise = 0.01,
+            noise = 0.02,
             popups = 0,
             special = 0,
-            vibrancy_darkness = 0.02
+            vibrancy_darkness = 0.2
         }
     },
 
@@ -468,4 +468,4 @@ hl.layer_rule({ match = { namespace = "rofi" }, blur = true, animation = "slidef
 hl.layer_rule({ match = { namespace = "swaync-notification-window" }, blur = true, ignore_alpha = 0.2 })
 
 -- Mini window rules
-hl.window_rule({ match = { class = "kitty" }, opacity = "0.87 override 0.85" })
+hl.window_rule({ match = { class = "kitty" }, opacity = "0.90 override 0.90" })
