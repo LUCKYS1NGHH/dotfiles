@@ -2,15 +2,17 @@
 
 A personal Hyprland setup on Arch Linux — tiling Wayland compositor with a curated set of tools for a clean, keyboard-driven workflow.
 
+### Hyprland v0.55+ Lua Config Available
+
 ---
 
 ## Performance
 
-Runs smooth in No-GPU Desktops or Laptops
+Runs smooth in No Dedicated-GPU Desktops or Laptops
 
-##### CPU usage (idle): 2-4%
+- CPU usage (idle): 2-4%
+- Ram Usage (idle): 300-400 MB
 
-##### Ram Usage (idle): 300-400 MB
 > Hyprland, SwayNC and Waybar usage combined
 
 ---
