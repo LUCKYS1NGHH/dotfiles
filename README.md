@@ -1,8 +1,8 @@
-# Arch Hyprland Dotfiles ⚡
+# Arch + Hyprland Dotfiles ⚡
 
 A personal Hyprland setup on Arch Linux — tiling Wayland compositor with a curated set of tools for a clean, keyboard-driven workflow.
 
-### Hyprland v0.55+ Lua Config Available
+#### Hyprland v0.55+ Lua Config Available
 
 ---
 
@@ -20,19 +20,19 @@ Runs smooth in No Dedicated-GPU Desktops or Laptops
 ## Showcase 🎨
 
 <p>
-  <img src="screenshots/image_1.png" width="49%" alt="clock-rs, fastfetch and cava floating windows](screenshots/image_1.png">
-  <img src="screenshots/image_2.png" width="49%" alt="clock-rs, unimatrix, cava and swaync](screenshots/image_2.png">
+  <img src="screenshots/image_1.png" width="49%" alt="clock-rs, fastfetch and cava floating windows">
+  <img src="screenshots/image_2.png" width="49%" alt="clock-rs, unimatrix, cava and swaync">
   <img src="screenshots/image_3.png" width="49%" alt="TUI code editor (LunarVim)">
-  <img src="screenshots/image_4.png" width="49%" alt="unimatrix, rofi app launcher and pipes.sh">
+  <img src="screenshots/image_4.png" width="49%" alt="unimatrix, rofi app launcher and pipes.sh terminal aesthetic tool">
   <img src="screenshots/image_5.png" width="49%" alt="hyprlock interface, with profile picture, datetime, username, uptime and weather">
-  <img src="screenshots/image_6.png" width="49%" alt="nitch in left, cava in right, with a blur BG notification">
+  <img src="screenshots/image_6.png" width="49%" alt="nitch in left, cava in right, with a blur BG swaync notification">
 </p>
 
 ## Install 📦
 
 > [!IMPORTANT]
 > Before installing, please backup your `~/.config` directory.
-> Also your Hyprland version should be 0.55v+, so it can use the NEW Lua config.
+> Also your Hyprland version should be v0.55+, so it can use the NEW Lua config.
 
 ```bash
 git clone --depth=1 https://github.com/LUCKYS1NGHH/dotfiles.git
