@@ -42,6 +42,9 @@ cp -r .config/* ~/.config/
 
 > ##### If you want more Waybar style options, checkout my [`waybar-configs`](https://github.com/LUCKYS1NGHH/waybar-configs.git) collection
 
+> [!NOTE]
+> For my ZSH (shell) theme, you have to install [`ZSH`](https://github.com/zsh-users/zsh) and  [`Powerlevel10k`](https://github.com/romkatv/powerlevel10k) to use it, and then paste `.p10k.zsh` file to `~`, path should look like `~/.p10.zsh`.
+
 ---
 
 ## Tools & Dependencies 🛠️
