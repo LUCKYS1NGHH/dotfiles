@@ -43,7 +43,7 @@ cp -r .config/* ~/.config/
 > ##### If you want more Waybar style options, checkout my [`waybar-configs`](https://github.com/LUCKYS1NGHH/waybar-configs.git) collection
 
 > [!NOTE]
-> For my ZSH (shell) theme, you have to install [`ZSH`](https://github.com/zsh-users/zsh) and  [`Powerlevel10k`](https://github.com/romkatv/powerlevel10k) to use it, and then paste `.p10k.zsh` file to `~`, path should look like `~/.p10.zsh`.
+> For my ZSH (shell) theme, you have to install [`ZSH`](https://github.com/zsh-users/zsh) and  [`Powerlevel10k`](https://github.com/romkatv/powerlevel10k) to use it, and then paste `.p10k.zsh` file to `~`. path should look like `~/.p10k.zsh`.
 
 ---
 
@@ -142,7 +142,7 @@ cp -r .config/* ~/.config/
 ---
 
 > [!NOTE]
-> It's possible that the dotfiles not working properly on your system.
+> It's possible that the dotfiles not working properly on your system, so if facing any problem, please open an issue.
 
 ## Ricer
 
