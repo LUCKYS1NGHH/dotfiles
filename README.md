@@ -28,6 +28,23 @@ Runs smooth in No Dedicated-GPU Desktops or Laptops
   <img src="screenshots/image_6.png" width="49%" alt="nitch in left, cava in right, with a blur BG swaync notification">
 </p>
 
+<details>
+<summary>Checkout wallpapers</summary>
+  <img src="wallpapers/arizona.webp" width="49%">
+  <img src="wallpapers/lis2.webp" width="49%">
+  <img src="wallpapers/miles.webp" width="49%">
+  <img src="wallpapers/rdr2-sunset.webp" width="49%">
+  <img src="wallpapers/re8.webp" width="49%">
+  <img src="wallpapers/re9.webp" width="49%">
+  <img src="wallpapers/mounthouse.webp" width="49%">
+  <img src="wallpapers/nepal.webp" width="49%">
+  <img src="wallpapers/gta5-hill-midnight.webp" width="49%">
+  <img src="wallpapers/webarebears-home.webp" width="49%">
+  <img src="wallpapers/sottr-panther.webp" width="49%">
+  <img src="wallpapers/lis2-minimart.webp" width="49%">
+  <img src="wallpapers/outlast2.jpg" width="49%">
+</details>
+
 ## Install 📦
 
 > [!IMPORTANT]
