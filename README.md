@@ -45,6 +45,39 @@ Runs smooth in No Dedicated-GPU Desktops or Laptops
   <img src="wallpapers/outlast2.jpg" width="49%">
 </details>
 
+---
+
+## Tools & Dependencies 🛠️
+
+#### You can replace any of these tools with your preferred alternatives after cloning.
+
+| Tool      | Description                                | Dependencies |
+|-----------|--------------------------------------------|--------------|
+| cava      | Terminal Audio Visualizer                  | `pipewire`   |
+| clock-rs  | CLI clock                                  | N/A          |
+| waybar    | Status bar                                 | `swaync`, `playerctl`, `pacman-contrib`, `networkmanager`, `network-manager-applet`, `brightnessctl`, `pavucontrol`, `python3`, `python-requests`, `ttf-jetbrains-mono-nerd`, `ttf-firacode-nerd`, `noto-fonts-cjk` |
+| kitty     | Fast GPU-accelerated terminal              | `ttf-firacode-nerd` |
+| fastfetch | System info                                | A nerd font, recommend: `ttf-firacode-nerd` |
+| hypr*     | hyprland window-manager and its utilities  | `hyprlock`, `hyprshot`, `swaync`, `waybar`, `hyprsunset`, `kitty`, `thunar`, `wl-clipboard`, `rofi`, `cliphist` |
+| swaync    | Notification center                        | `hyprlock`, `network-manager-applet`, `blueman`, `obs-studio`, `pavucontrol`, `playerctl` |
+| rofi      | Dynamic Menu                               | `cliphist`, `rofi-emoji`, `noto-fonts-emoji` |
+
+> Install dependencies with one command
+
+```bash
+sudo pacman -S pipewire swaync playerctl waybar rofi cliphist wl-clipboard \
+     pacman-contrib networkmanager brightnessctl \
+     pavucontrol python3 python-requests \
+     ttf-jetbrains-mono-nerd ttf-firacode-nerd noto-fonts-cjk \
+     hyprlock hyprshot hyprsunset rofi-emoji
+```
+
+> Optional
+
+```bash
+sudo pacman -S obs-studio blueman thunar network-manager-applet
+```
+
 ## Install 📦
 
 > [!IMPORTANT]
@@ -61,23 +94,6 @@ cp -r .config/* ~/.config/
 
 > [!NOTE]
 > For my ZSH (shell) theme, you have to install [`ZSH`](https://github.com/zsh-users/zsh) and  [`Powerlevel10k`](https://github.com/romkatv/powerlevel10k) to use it, and then paste `.p10k.zsh` file to `~`. path should look like `~/.p10k.zsh`.
-
----
-
-## Tools & Dependencies 🛠️
-
-#### You can replace any of these tools with your preferred alternatives after cloning.
-
-| Tool      | Description                                | Dependencies |
-|-----------|--------------------------------------------|--------------|
-| cava      | Terminal Audio Visualizer                  | `pipewire`   |
-| clock-rs  | CLI clock                                  | N/A          |
-| waybar    | Status bar                                 | `swaync`, `playerctl`, `pacman-contrib`, `NetworkManager`, `network-manager-applet`, `brightnessctl`, `pavucontrol`, `python3`, `python-requests`, `ttf-jetbrains-mono-nerd`, `ttf-firacode-nerd`, `noto-fonts-cjk` |
-| kitty     | Fast GPU-accelerated terminal              | `ttf-firacode-nerd` |
-| fastfetch | System info                                | A nerd font, recommend: `ttf-firacode-nerd` |
-| hypr*     | hyprland window-manager and its utilities  |  `hyprlock`, `hyprshot`, `swaync`, `waybar`, `hyprsunset`, `kitty`, `thunar`, `wl-clipboard`, `rofi`, `cliphist` |
-| swaync    | Notification center                        |`hyprlock`, `network-manager-applet`, `blueman`, `obs-studio`, `pavucontrol`, `playerctl` |
-| rofi      | Dynamic Menu                               | `cliphist`, `rofi-emoji`, `noto-fonts-emoji` |
 
 ## Key-bindings ⌨️
 
