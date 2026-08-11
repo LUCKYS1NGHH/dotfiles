@@ -43,6 +43,7 @@ Runs smooth in No Dedicated-GPU Desktops or Laptops
   <img src="wallpapers/sottr-panther.webp" width="49%">
   <img src="wallpapers/lis2-minimart.webp" width="49%">
   <img src="wallpapers/outlast2.jpg" width="49%">
+  <img src="wallpapers/night-forest.webp" width="49%">
 </details>
 
 ---
