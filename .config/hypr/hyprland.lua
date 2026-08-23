@@ -467,4 +467,11 @@ hl.layer_rule({ match = { namespace = "rofi" }, blur = true, animation = "slidef
 hl.layer_rule({ match = { namespace = "swaync-notification-window" }, blur = true, ignore_alpha = 0.2 })
 
 -- Mini window rules
-hl.window_rule({ match = { class = "kitty" }, opacity = "0.90 override 0.90" })
+hl.window_rule({
+  match = { class = "kitty" },
+  opacity = "0.90 override 0.90",
+  float = true,
+  size = { 980, 580 },
+  rounding = 15,
+  border_color = "#28292a"
+})
