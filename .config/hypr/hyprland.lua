@@ -462,6 +462,18 @@ hl.window_rule({
   center = true
 })
 
+hl.window_rule({
+  name = "file-picker",
+  match = {
+    class = "xdg-desktop-portal-gtk",
+    title = ".*wants to open*.|Pop-up|open"
+  },
+
+  float  = true,
+  size   = "800 550",
+  center = true
+})
+
 -- Mini layer rules
 hl.layer_rule({ match = { namespace = "rofi" }, blur = true, animation = "slidefade" })
 hl.layer_rule({ match = { namespace = "swaync-notification-window" }, blur = true, ignore_alpha = 0.2 })
