@@ -463,10 +463,10 @@ hl.window_rule({
 })
 
 hl.window_rule({
-  name = "file-picker",
+  name = "browser-file-mgr",
   match = {
     class = "xdg-desktop-portal-gtk",
-    title = ".*wants to open*.|Pop-up|open"
+    title = ".*wants to open*.|.*wants to save*.|Pop-up|open"
   },
 
   float  = true,
