@@ -1,0 +1,31 @@
+[[manager.prepend_keymap]]
+on = ["`"]
+run = "plugin size"
+desc = "Calculate size"
+
+[[manager.prepend_keymap]]
+on = ["y", "p"]
+run = "copy path"
+
+[[manager.prepend_keymap]]
+on = ["y", "d"]
+run = "copy dirname"
+
+[[manager.prepend_keymap]]
+on = ["y", "f"]
+run = "copy filename"
+
+[[mgr.prepend_keymap]]
+on = "1"
+run = "cd ~/Downloads"
+desc = "Jump to Downloads"
+
+[[mgr.prepend_keymap]]
+on = "2"
+run = "cd ~/Documents"
+desc = "Jump to Documents"
+
+[[mgr.prepend_keymap]]
+on = "3"
+run = "cd ~/Pictures"
+desc = "Jump to Pictures"

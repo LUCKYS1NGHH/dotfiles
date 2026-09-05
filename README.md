@@ -62,6 +62,7 @@ Runs smooth in No Dedicated-GPU Desktops or Laptops
 | hypr*     | hyprland window-manager and its utilities  | `hyprlock`, `hyprshot`, `swaync`, `waybar`, `hyprsunset`, `kitty`, `thunar`, `wl-clipboard`, `rofi`, `cliphist` |
 | swaync    | Notification center                        | `hyprlock`, `network-manager-applet`, `blueman`, `obs-studio`, `pavucontrol`, `playerctl` |
 | rofi      | Dynamic Menu                               | `cliphist`, `rofi-emoji`, `noto-fonts-emoji` |
+| yazi      | TUI File manager                           | `mupdf`, `glow`, `swayimg` |
 
 > Install dependencies with one command
 
@@ -70,13 +71,18 @@ sudo pacman -S pipewire swaync playerctl waybar rofi cliphist wl-clipboard \
      pacman-contrib networkmanager brightnessctl \
      pavucontrol python3 python-requests \
      ttf-jetbrains-mono-nerd ttf-firacode-nerd noto-fonts-cjk \
-     hyprlock hyprshot hyprsunset rofi-emoji
+     hyprlock hyprshot hyprsunset rofi-emoji yazi
 ```
 
 > Optional
 
 ```bash
-sudo pacman -S obs-studio blueman thunar network-manager-applet
+sudo pacman -S blueman thunar network-manager-applet mupdf glow swayimg
+
+# blueman -> swaync
+# thunar -> hyprland
+# nm-applet -> waybar
+# mupdf, glow, swayimg -> yazi
 ```
 
 ## Install 📦
@@ -172,6 +178,16 @@ cp -r .config/* ~/.config/
 | Zoom-In | `Super` + `Z` |
 | Zoom-In Increase | `Super` + `KP_ADD` |
 | Zoom-Out | `Super` + `minus` |
+
+### File manager (yazi) 🗃️
+| Action | Keybinding |
+|--------|------------|
+| Copy-paste path | `y` + `p` |
+| Copy-paste dir | `y` + `d` |
+| Copy-paste file | `y` + `f` |
+| Jump to Downloads | `1` |
+| Jump to Documents | `2` |
+| Jump to Pictures | `3` |
 
 ---
 

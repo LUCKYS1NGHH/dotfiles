@@ -1,0 +1,34 @@
+[mgr]
+show_hidden = false
+show_symlink = true
+linemode = "size_mtime_type"
+sort_dir_first = true
+sort_by = "mtime"
+sort_reverse = true
+
+[[mgr.prepend_keymap]]
+on = "1"
+run = "cd ~/Downloads"
+desc = "Jump to Downloads"
+
+[open]
+rules = [
+    { mime = "image/*", use = [ "img", "reveal" ] },
+    { mime = "video/*", use = [ "play", "reveal" ] },
+    { mime = "audio/*", use = [ "play", "reveal" ] },
+    { url = "*.md", use = [ "markdownopen", "reveal" ] },
+    { mime = "text/html", use = [ "browser", "reveal"] },
+    { mime = "text/*", use = [ "textopen", "reveal" ] },
+    { mime = "application/pdf", use = [ "pdfviewer", "reveal" ] },
+    { mime = "application/sqlite*", use = [ "sqlitedb", "reveal" ] },
+    { mime = "application/json", use = [ "json", "reveal" ] }
+]
+
+[opener]
+img = [{ run = 'swayimg %s', desc = "Swayimg: Image viewer", orphan = true }]
+play = [{ run = 'mpv %s', desc = "Mpv: Video player", orphan = true }]
+browser = [{ run = 'brave %s', desc = "Brave: browser", orphan = true }]
+pdfviewer = [{ run = 'mupdf %s', desc = "Mupdf: pdf viewer", orphan = true }]
+textopen = [{ run = 'kitty -- zsh -c "nano %s"', desc = "nano: text editor", block = true }]
+markdownopen = [{ run = 'kitty -- zsh -c "glow %s"', desc = "Glow: markdown viewer", block = true }]
+json = [{ run = 'kitty -- zsh -c "less %s"', desc = "Json viewer", block = true }]
