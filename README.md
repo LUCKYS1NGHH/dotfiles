@@ -107,87 +107,87 @@ cp -r .config/* ~/.config/
 ### Applications 🚀
 | Action | Keybinding |
 |--------|------------|
-| Terminal (`$terminal`) | `Super` + `Q` |
-| File Manager (`$fileManager`) | `Super` + `E` |
-| Brave Browser | `Super` + `B` |
-| wlogout | `Super` + `Shift` + `E` |
-| hyprshutdown / Hyprland exit | `Super` + `M` |
+| Terminal (`$terminal`) | <kbd>Super</kbd> + <kbd>Q</kbd> |
+| File Manager (`$fileManager`) | <kbd>Super</kbd> + <kbd>E</kbd> |
+| Brave Browser | <kbd>Super</kbd> + <kbd>B</kbd> |
+| wlogout | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>E</kbd> |
+| hyprshutdown / Hyprland exit | <kbd>Super</kbd> + <kbd>M</kbd> |
 
 ### Screenshots (hyprshot) 🖼️ 
 | Action | Keybinding |
 |--------|------------|
-| Full output | `Super` + `Shift` + `F` |
-| Window | `Super` + `Shift` + `W` |
-| Region | `Super` + `Shift` + `R` |
+| Full output | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> |
+| Window | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd> |
+| Region | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> |
 
 ### Rofi 🔍
 | Action | Keybinding |
 |--------|------------|
-| App Launcher | `Super` + `D` |
-| Clipboard History (cliphist) | `Super` + `Shift` + `V` |
-| Emoji Picker | `Super` + `G` |
-| Wallpaper Changer (Pick) | `Super` + `W` |
-| `$menu` | `Super` + `R` |
+| App Launcher | <kbd>Super</kbd> + <kbd>D</kbd> |
+| Clipboard History (cliphist) | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> |
+| Emoji Picker | <kbd>Super</kbd> + <kbd>G</kbd> |
+| Wallpaper Changer (Pick) | <kbd>Super</kbd> + <kbd>W</kbd> |
+| `$menu` | <kbd>Super</kbd> + <kbd>R</kbd> |
 
 ### Window Management 🪟
 | Action | Keybinding |
 |--------|------------|
-| Kill active window | `Super` + `C` |
-| Toggle floating | `Super` + `V` |
-| Pseudo (dwindle) | `Super` + `P` |
-| Toggle split (dwindle) | `Super` + `J` |
-| SwayNC notification panel | `Super` + `N` |
+| Kill active window | <kbd>Super</kbd> + <kbd>C</kbd> |
+| Toggle floating | <kbd>Super</kbd> + <kbd>V</kbd> |
+| Pseudo (dwindle) | <kbd>Super</kbd> + <kbd>P</kbd> |
+| Toggle split (dwindle) | <kbd>Super</kbd> + <kbd>J</kbd> |
+| SwayNC notification panel | <kbd>Super</kbd> + <kbd>N</kbd> |
 
 ### Focus 🎯
 | Action | Keybinding |
 |--------|------------|
-| Focus left | `Super` + `←` |
-| Focus right | `Super` + `→` |
-| Focus up | `Super` + `↑` |
-| Focus down | `Super` + `↓` |
+| Focus left | <kbd>Super</kbd> + <kbd>←</kbd> |
+| Focus right | <kbd>Super</kbd> + <kbd>→</kbd> |
+| Focus up | <kbd>Super</kbd> + <kbd>↑</kbd> |
+| Focus down | <kbd>Super</kbd> + <kbd>↓</kbd> |
 
 ### Resize ↔️
 | Action | Keybinding |
 |--------|------------|
-| Expand right | `Super` + `Shift` + `→` |
-| Shrink left | `Super` + `Shift` + `←` |
-| Shrink up | `Super` + `Shift` + `↑` |
-| Expand down | `Super` + `Shift` + `↓` |
+| Expand right | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>→</kbd> |
+| Shrink left | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>←</kbd> |
+| Shrink up | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>↑</kbd> |
+| Expand down | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>↓</kbd> |
 
 ### Swap 🔄
 | Action | keybinding |
 |--------|------------|
-| Swap with left window | `Super` + `Shift` + `h` |
-| Swap with right window | `Super` + `Shift` + `j` |
-| Swap with top window | `Super` + `Shift` + `k` |
-| Swap with bottom window | `Super` + `Shift` + `l` |
+| Swap with left window | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>h</kbd> |
+| Swap with right window | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>j</kbd> |
+| Swap with top window | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>k</kbd> |
+| Swap with bottom window | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>l</kbd> |
 
 ### Workspaces 🗂️
 | Action | Keybinding |
 |--------|------------|
-| Switch to workspace 1–10 | `Super` + `1`–`0` |
-| Move window to workspace 1–10 | `Super` + `Shift` + `1`–`0` |
-| Toggle special workspace (magic) | `Super` + `S` |
-| Move window to special workspace | `Super` + `Shift` + `S` |
-| Next workspace (scroll) | `Super` + `Scroll Down` |
-| Previous workspace (scroll) | `Super` + `Scroll Up` |
+| Switch to workspace 1–10 | <kbd>Super</kbd> + <kbd>1</kbd>–<kbd>0</kbd> |
+| Move window to workspace 1–10 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>–<kbd>0</kbd> |
+| Toggle special workspace (magic) | <kbd>Super</kbd> + <kbd>S</kbd> |
+| Move window to special workspace | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> |
+| Next workspace (scroll) | <kbd>Super</kbd> + <kbd>Scroll Down</kbd> |
+| Previous workspace (scroll) | <kbd>Super</kbd> + <kbd>Scroll Up</kbd> |
 
 ### Magnifier 🔍
 | Action | Keybinding |
 |--------|------------|
-| Zoom-In | `Super` + `Z` |
-| Zoom-In Increase | `Super` + `KP_ADD` |
-| Zoom-Out | `Super` + `minus` |
+| Zoom-In | <kbd>Super</kbd> + <kbd>Z</kbd> |
+| Zoom-In Increase | <kbd>Super</kbd> + <kbd>KP_ADD</kbd> |
+| Zoom-Out | <kbd>Super</kbd> + <kbd>minus</kbd> |
 
 ### File manager (yazi) 🗃️
 | Action | Keybinding |
 |--------|------------|
-| Copy-paste path | `y` + `p` |
-| Copy-paste dir | `y` + `d` |
-| Copy-paste file | `y` + `f` |
-| Jump to Downloads | `1` |
-| Jump to Documents | `2` |
-| Jump to Pictures | `3` |
+| Copy-paste path | <kbd>y</kbd> + <kbd>p</kbd> |
+| Copy-paste dir | <kbd>y</kbd> + <kbd>d</kbd> |
+| Copy-paste file | <kbd>y</kbd> + <kbd>f</kbd> |
+| Jump to Downloads | <kbd>1</kbd> |
+| Jump to Documents | <kbd>2</kbd> |
+| Jump to Pictures | <kbd>3</kbd> |
 
 ---
 
